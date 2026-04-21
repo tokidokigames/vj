@@ -1,0 +1,140 @@
+[gd_scene load_steps=7 format=3 uid="uid://csg2in5obl6ob"]
+
+[ext_resource type="Texture2D" uid="uid://bmgb8ksrjousf" path="res://props/mop_dry.png" id="1_cfi8j"]
+[ext_resource type="Texture2D" uid="uid://dwadmu1t6eusl" path="res://props/mop_wet.png" id="2_j0nqn"]
+[ext_resource type="AudioStream" uid="uid://bnprmgkobo5gk" path="res://sounds/mop_sfx.wav" id="6_36maa"]
+
+[sub_resource type="GDScript" id="GDScript_lg60v"]
+script/source = "extends Node2D
+
+@onready var area = $Area2D
+@onready var sprite = $AnimatedSprite2D  # Reference to the sprite for animations
+@onready var instruction_label = $InstructionLabel
+@onready var anim_sprite = $AnimatedSprite2D
+#@onready var root_mop = $Mop
+
+var is_picked_up: bool = false
+var carried_by: Node = null  # Reference to the player carrying the mop
+var is_mopping: bool = false
+var is_wet = false
+
+func _ready():
+	sprite.play(\"idle_mop\")  # Default to an idle state
+
+func _on_area_2d_body_entered(body):
+	if body.name == \"Player\" and not is_picked_up:
+		body.nearby_items.append(self)
+		#body.set(\"can_pick_up\", self)  # Allow player to pick up mop
+		if get_tree().root.get_node(\"Game/LevelContainer/Level0\") and is_picked_up == false and body.held_item == null:
+			instruction_label.visible = true
+		
+func _on_area_2d_body_exited(body):
+	if body.name == \"Player\" and not is_picked_up:
+		body.nearby_items.erase(self)
+		#body.set(\"can_pick_up\", null)  # Remove pickup prompt
+	if instruction_label.visible == true:
+		instruction_label.visible = false
+
+func pick_up(player):
+	is_picked_up = true
+	instruction_label.visible = false
+	carried_by = player
+
+	# Reparent to player and position correctly
+	get_parent().remove_child(self)
+	player.add_child(self)
+	position = Vector2(0, -20)  # Adjust relative to player's hand
+	rotation = 0  
+	self.visible = false
+
+func put_down(player):
+	is_picked_up = false
+	carried_by = null
+
+	# Reparent back to the world
+	player.remove_child(self)
+	player.get_parent().add_child(self)
+	global_position = player.global_position  
+	if get_wet_status():
+		anim_sprite.play(\"idle_wet_mop\")
+	self.visible = true
+	#stop_mopping()
+
+func start_mopping():
+	if has_node(\"AnimatedSprite2D\"):
+		var player = get_tree().root.get_node(\"Game/LevelContainer/Level0/Player\")
+		if anim_sprite.animation != \"idle_wet_mop\" or !anim_sprite.is_playing():
+			if player.sprite.flip_h == false:
+				anim_sprite.position = Vector2(1, 2)
+			elif player.sprite.flip_h == true:
+				anim_sprite.position = Vector2(-1, 2)
+			anim_sprite.play(\"idle_wet_mop\")  # Only start animation if not already playing
+			$MoppingSound.play()
+
+func stop_mopping():
+	if has_node(\"AnimatedSprite2D\"):
+		if anim_sprite.animation == \"idle_wet_mop\":
+			anim_sprite.position = Vector2(0, 0)
+			anim_sprite.play(\"idle_mop\")  # Change back to idle when done
+
+func set_wet(wet: bool):
+	is_wet = wet
+
+func get_wet_status():
+	return is_wet
+"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u2g6o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_cfi8j")
+}],
+"loop": true,
+"name": &"idle_mop",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_j0nqn")
+}],
+"loop": true,
+"name": &"idle_wet_mop",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g51ow"]
+size = Vector2(6, 16)
+
+[node name="Mop" type="Sprite2D"]
+scale = Vector2(5, 5)
+script = SubResource("GDScript_lg60v")
+
+[node name="InstructionLabel" type="Label" parent="."]
+visible = false
+z_index = 5
+offset_left = -50.0
+offset_top = -30.0
+offset_right = 247.0
+offset_bottom = -7.0
+scale = Vector2(0.4, 0.4)
+theme_override_colors/font_color = Color(0.784314, 0.588235, 0.156863, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+text = "Press \"e\" to pick up and drop tools"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_u2g6o")
+animation = &"idle_wet_mop"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_g51ow")
+
+[node name="MoppingSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_36maa")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

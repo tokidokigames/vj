@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bokc2k5g43qrv"
+path="res://.godot/imported/F4.png-c1a215f59dc1126b18b7880ec2a8ff06.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://animations/tools/Character vj walk wet rag anim - front/F4.png"
+dest_files=["res://.godot/imported/F4.png-c1a215f59dc1126b18b7880ec2a8ff06.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

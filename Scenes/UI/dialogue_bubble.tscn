@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://cekmilfsxlxo7"]
+
+[ext_resource type="Script" path="res://Scenes/UI/dialogue_bubble.gd" id="1_4lm3o"]
+[ext_resource type="Texture2D" uid="uid://o6m17eiw7rqx" path="res://ui_elements/dialogue_bubble.png" id="2_2i8il"]
+
+[node name="DialogueBubble" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+scale = Vector2(3, 3)
+script = ExtResource("1_4lm3o")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 46.0
+offset_bottom = 16.0
+texture = ExtResource("2_2i8il")
+
+[node name="BubbleText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.33333
+offset_right = 160.0
+offset_bottom = 26.3333
+scale = Vector2(0.25, 0.25)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Woah... Where am I?"
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

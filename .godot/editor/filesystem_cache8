@@ -1,0 +1,754 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1776791164
+default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695668179::0::1::::<><>::
+exit_door.gd::GDScript::-1::1729452644::0::1::::<>Area2D<>::
+logo.png::CompressedTexture2D::5601983171977006797::1730445464::1730445469::1::::<><>::
+next_scene.tscn::PackedScene::4862887946709098416::1743792346::0::1::::<><>::uid://bvlcoyjfekddd::::res://Scenes/Characters/player.tscn
+::res://addons/::1743283953
+::res://addons/colorpicker_presets/::1743283953
+colorpicker_presets.gd::GDScript::-1::1695668179::0::1::::<>EditorPlugin<>::
+plugin.cfg::TextFile::-1::1695668179::0::1::::<><>::
+README.md::TextFile::-1::1695668179::0::1::::<><>::
+::res://animations/::1747460100
+::res://animations/movement/::1750205030
+holding1.png::CompressedTexture2D::1048628680981424386::1740087773::1743790388::1::::<><>::
+holding2.png::CompressedTexture2D::2601342836411127457::1740087805::1743790388::1::::<><>::
+holding3.png::CompressedTexture2D::4381260063669828861::1740087842::1743790388::1::::<><>::
+holding4.png::CompressedTexture2D::9111768882769135400::1740087868::1743790388::1::::<><>::
+holding5.png::CompressedTexture2D::7102858919913061680::1740087895::1743790388::1::::<><>::
+holding.png::CompressedTexture2D::4195691574499763004::1740085173::1743790388::1::::<><>::
+rag_scrub.png::CompressedTexture2D::7700251500814982338::1742414727::1742414729::1::::<><>::
+two_hands.png::CompressedTexture2D::7034524706472591760::1742333127::1742333129::1::::<><>::
+Walk1.png::CompressedTexture2D::8831781066206113361::1740087599::1743790388::1::::<><>::
+Walk2.png::CompressedTexture2D::145342716478621888::1740087627::1743790388::1::::<><>::
+Walk3.png::CompressedTexture2D::2324918949114839284::1740087664::1743790388::1::::<><>::
+Walk4.png::CompressedTexture2D::353357821240004059::1740087693::1743790388::1::::<><>::
+Walk5.png::CompressedTexture2D::8559816327144799665::1740087725::1743790388::1::::<><>::
+::res://animations/movement/Bucket/::1750205398
+F4.png::CompressedTexture2D::7904805185741332775::1749593994::1750205114::1::::<><>::
+::res://animations/movement/Bucket/Bucket and splash anim/::1750205114
+F0.png::CompressedTexture2D::3437751179129157264::1749594656::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::3713004705885751589::1749594656::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::5253709863501620570::1749594656::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::7683760550005411356::1749594656::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::7420648113908296733::1749594656::1750205114::1::::<><>::
+::res://animations/movement/Bucket/Bucket and splash anim walk back/::1750205114
+F0.png::CompressedTexture2D::7998356191849491941::1749594731::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::5936845178858387911::1749594731::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::687636732332177034::1749594731::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::6101545364388843809::1749594731::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::3552724693694249223::1749594731::1750205114::1::::<><>::
+::res://animations/movement/Bucket/Bucket and splash anim walk front/::1750205114
+F0.png::CompressedTexture2D::4124905990612693632::1749594682::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::6373328336745417070::1749594682::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::3123362936030996174::1749594682::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::4747905235832461622::1749594682::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::6732449746588342567::1749594682::1750205114::1::::<><>::
+::res://animations/movement/Bucket/Bucket and splash anim walk left/::1750205484
+F0.png::CompressedTexture2D::5707562278490179603::1750205479::1750205484::1::::<><>::
+F1.png::CompressedTexture2D::869225379820868131::1750205479::1750205484::1::::<><>::
+F2.png::CompressedTexture2D::6736671586485687570::1750205479::1750205484::1::::<><>::
+F3.png::CompressedTexture2D::859303681245336356::1750205479::1750205484::1::::<><>::
+F4.png::CompressedTexture2D::5733218354409125957::1750205479::1750205484::1::::<><>::
+::res://animations/movement/Bucket/Bucket and splash anim walk right/::1750205114
+F0.png::CompressedTexture2D::1861853565721897355::1749594764::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::408747414936901419::1749594764::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::1485190500178982880::1749594764::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::2130214903482664257::1749594764::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::8116132467260387651::1749594764::1750205114::1::::<><>::
+::res://animations/movement/Character vj walk anim back/::1744662412
+F0.png::CompressedTexture2D::4200639381425882605::1744579457::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::6146599873584656408::1744579457::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::5940802850092044548::1744579457::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::7474941653473848119::1744579457::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::7313022754623965203::1744579457::1744662412::1::::<><>::
+F5.png::CompressedTexture2D::5488657301702097541::1744579457::1744662412::1::::<><>::
+F6.png::CompressedTexture2D::3288477360871515030::1744579457::1744662412::1::::<><>::
+F7.png::CompressedTexture2D::7149010369496483074::1744579457::1744662412::1::::<><>::
+::res://animations/movement/Character vj walk anim front/::1744662412
+F0.png::CompressedTexture2D::1725567816258382459::1744579435::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::3386529566507477322::1744579435::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::870415773328295963::1744579435::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::1917438165836487482::1744579435::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::3539787244207898248::1744579435::1744662412::1::::<><>::
+F5.png::CompressedTexture2D::5475310283087639979::1744579435::1744662412::1::::<><>::
+F6.png::CompressedTexture2D::848549825820316404::1744579435::1744662412::1::::<><>::
+F7.png::CompressedTexture2D::48214850245228542::1744579435::1744662412::1::::<><>::
+::res://animations/movement/Character vj walk anim left/::1744662412
+F0.png::CompressedTexture2D::2501870342079538337::1744579496::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::7093826092503506535::1744579496::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::2141044849077862225::1744579496::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::1789683924712113221::1744579496::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::9035974098959278121::1744579496::1744662412::1::::<><>::
+F5.png::CompressedTexture2D::8824178222538776193::1744579496::1744662412::1::::<><>::
+F6.png::CompressedTexture2D::9080219048763970604::1744579496::1744662412::1::::<><>::
+F7.png::CompressedTexture2D::3836291393757777610::1744579496::1744662412::1::::<><>::
+::res://animations/movement/Character vj walk anim right/::1744662412
+F0.png::CompressedTexture2D::8320396966411815807::1744579476::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::226894552978589879::1744579476::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::6333648401221036340::1744579476::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::5520415644398755182::1744579476::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::2045240021467192507::1744579476::1744662412::1::::<><>::
+F5.png::CompressedTexture2D::8655301578771408028::1744579476::1744662412::1::::<><>::
+F6.png::CompressedTexture2D::7830146615010809479::1744579476::1744662412::1::::<><>::
+F7.png::CompressedTexture2D::8798295358683842621::1744579476::1744662412::1::::<><>::
+::res://animations/movement/Vampire vj sprite walk anim back/::1744662412
+F0.png::CompressedTexture2D::5512848439730113193::1744579335::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::8548371402024775028::1744579335::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::8158435892897127009::1744579335::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::2428030963437411120::1744579335::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::8865988008751483241::1744579335::1744662412::1::::<><>::
+F5.png::CompressedTexture2D::6051089384039573096::1744579335::1744662412::1::::<><>::
+::res://animations/movement/Vampire vj sprite walk anim front/::1744662412
+F0.png::CompressedTexture2D::4757524984136273143::1744579309::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::6445128616193996582::1744579309::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::7959470870041091040::1744579309::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::1944756359210608595::1744579309::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::2079563321483540925::1744579309::1744662412::1::::<><>::
+F5.png::CompressedTexture2D::7745532709283794250::1744579309::1744662412::1::::<><>::
+::res://animations/movement/Vampire vj sprite walk anim left/::1744662412
+F0.png::CompressedTexture2D::5553373762366028344::1744579373::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::6174753731311457935::1744579373::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::445881770334621777::1744579373::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::6151677671465800968::1744579373::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::2278692369572477520::1744579373::1744662412::1::::<><>::
+F5.png::CompressedTexture2D::6465770895216527009::1744579373::1744662412::1::::<><>::
+::res://animations/movement/Vampire vj sprite walk anim right/::1744662412
+F0.png::CompressedTexture2D::9071401667235096694::1744579355::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::8420974467930453108::1744579355::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::1370356208286342861::1744579355::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::2350757634811506881::1744579355::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::8806329514011217138::1744579355::1744662412::1::::<><>::
+F5.png::CompressedTexture2D::6924608146174738156::1744579355::1744662412::1::::<><>::
+::res://animations/other/::1750205063
+::res://animations/other/_dirt/::1747461336
+F0.png::CompressedTexture2D::883490642740350422::1744578828::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::1734299473951710990::1744578828::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::8376859384376317702::1744578828::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::1573444756369593475::1744578828::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::2270946529190636751::1744578828::1747461336::1::::<><>::
+::res://animations/other/Blood splatter and anim/::1747461336
+F0.png::CompressedTexture2D::3028423130336976099::1744578855::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::3206950140095265767::1744578855::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::1472939384940338599::1744578855::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::4160030152273784758::1744578855::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::2571973510668524569::1744578855::1747461336::1::::<><>::
+::res://animations/other/Character dialogue screen/::1750200780
+F0.png::CompressedTexture2D::1025005155196330734::1749595391::1750200780::1::::<><>::
+F1.png::CompressedTexture2D::1392157489373357785::1749595391::1750200780::1::::<><>::
+F2.png::CompressedTexture2D::5915407383863157708::1749595391::1750200780::1::::<><>::
+F3.png::CompressedTexture2D::2890625893172100433::1749595391::1750200780::1::::<><>::
+F4.png::CompressedTexture2D::3783865202043901337::1749595391::1750200780::1::::<><>::
+F5.png::CompressedTexture2D::2974740862277179625::1749595391::1750200780::1::::<><>::
+F6.png::CompressedTexture2D::7979230784614214664::1749595391::1750200780::1::::<><>::
+::res://animations/other/Dialogue screen background level 0/::1750200780
+F0.png::CompressedTexture2D::7073446989666899387::1749595419::1750200780::1::::<><>::
+::res://animations/other/Scroll tip/::1750205114
+F0.png::CompressedTexture2D::8153893891355380949::1749594826::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::6925264793397002587::1749594826::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::4369078687403728663::1749594826::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::2619464421195646362::1749594826::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::8839251445937027755::1749594826::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::7793037727122377866::1749594826::1750205114::1::::<><>::
+::res://animations/other/Straw and dirt/::1747461336
+F0.png::CompressedTexture2D::1636734214650658618::1744578798::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::7581922370574810771::1744578798::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::239287349294571403::1744578798::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::8915372930907098486::1744578798::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::5294553930049224037::1744578798::1747461336::1::::<><>::
+::res://animations/other/Vampire dialogue screen/::1750200780
+F0.png::CompressedTexture2D::3202764179762093670::1749595343::1750200780::1::::<><>::
+F1.png::CompressedTexture2D::4452609915324562575::1749595343::1750200780::1::::<><>::
+F2.png::CompressedTexture2D::6530298481230872241::1749595343::1750200780::1::::<><>::
+F3.png::CompressedTexture2D::7658493427073102534::1749595343::1750200780::1::::<><>::
+F4.png::CompressedTexture2D::4331299813420460227::1749595343::1750200780::1::::<><>::
+F5.png::CompressedTexture2D::8950976022649825099::1749595343::1750200780::1::::<><>::
+F6.png::CompressedTexture2D::4543712003296730647::1749595343::1750200780::1::::<><>::
+::res://animations/other/Water and cleanup anim/::1747461336
+F0.png::CompressedTexture2D::6588349791036493480::1744578872::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::3541229285019989358::1744578872::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::3179574663675950645::1744578872::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::6600595702846851076::1744578872::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::6059662414636568695::1744578872::1747461336::1::::<><>::
+::res://animations/tools/::1747853887
+::res://animations/tools/_dirt/::1744662412
+F0.png::CompressedTexture2D::1705741485393629077::1744578828::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::3032839444552192624::1744578828::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::3212318805420903199::1744578828::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::487667408002756605::1744578828::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::2050791450857706352::1744578828::1744662412::1::::<><>::
+::res://animations/tools/Blood splatter and anim/::1744662412
+F0.png::CompressedTexture2D::3537019287367208515::1744578855::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::117567339816646350::1744578855::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::4344792556464212376::1744578855::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::7101415449158307834::1744578855::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::301093088972824425::1744578855::1744662412::1::::<><>::
+::res://animations/tools/Broom animation - back/::1744662412
+F0.png::CompressedTexture2D::4552603299400432632::1744134952::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::6220355490269661215::1744134952::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::7530587028089881048::1744134952::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::8062171720047095524::1744134952::1744662412::1::::<><>::
+::res://animations/tools/Broom animation - front/::1744662412
+F0.png::CompressedTexture2D::5970739040270083925::1744134683::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::3375764238782175920::1744134683::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::9212401408164291486::1744134683::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::6208199090567949114::1744134683::1744662412::1::::<><>::
+::res://animations/tools/Broom animation - left/::1747852892
+F0.png::CompressedTexture2D::57552157972316076::1747852629::1747852892::1::::<><>::
+F1.png::CompressedTexture2D::761460722136245::1747852629::1747852892::1::::<><>::
+F2.png::CompressedTexture2D::661356240658897597::1747852629::1747852892::1::::<><>::
+F3.png::CompressedTexture2D::6907754792053404092::1747852629::1747852892::1::::<><>::
+::res://animations/tools/Broom animation - right/::1744662412
+F0.png::CompressedTexture2D::7148960973164191888::1744135019::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::7357023841490194603::1744135019::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::5612532422080828885::1744135019::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::5237588502240235707::1744135019::1744662412::1::::<><>::
+::res://animations/tools/broom_animation_back/::1744152141
+F0.png::CompressedTexture2D::2382019594056829375::1744134952::1744152141::1::::<><>::
+F1.png::CompressedTexture2D::1442846697486035596::1744134952::1744152141::1::::<><>::
+F2.png::CompressedTexture2D::536272304162534178::1744134952::1744152141::1::::<><>::
+F3.png::CompressedTexture2D::3474247676800630758::1744134952::1744152141::1::::<><>::
+::res://animations/tools/broom_animation_front/::1744152141
+F0.png::CompressedTexture2D::4657445365756591315::1744134683::1744152141::1::::<><>::
+F1.png::CompressedTexture2D::5745974196298301622::1744134683::1744152141::1::::<><>::
+F2.png::CompressedTexture2D::3022335787310102887::1744134683::1744152141::1::::<><>::
+F3.png::CompressedTexture2D::301648665708480317::1744134683::1744152141::1::::<><>::
+::res://animations/tools/broom_animation_left/::1747852892
+F0.png::CompressedTexture2D::634712840060917060::1747852708::1747852892::1::::<><>::
+F1.png::CompressedTexture2D::6017363334062955892::1747852708::1747852892::1::::<><>::
+F2.png::CompressedTexture2D::5262528981860597548::1747852708::1747852892::1::::<><>::
+F3.png::CompressedTexture2D::4842634251694497565::1747852708::1747852892::1::::<><>::
+::res://animations/tools/broom_animation_right/::1744152141
+F0.png::CompressedTexture2D::7973818451572313292::1744135019::1744152141::1::::<><>::
+F1.png::CompressedTexture2D::8156577168628375126::1744135019::1744152141::1::::<><>::
+F2.png::CompressedTexture2D::4652493207580443609::1744135019::1744152141::1::::<><>::
+F3.png::CompressedTexture2D::7381316057689139888::1744135019::1744152141::1::::<><>::
+::res://animations/tools/Bucket and splash anim/::1765218895
+F0.png::CompressedTexture2D::4275865144809106928::1765216538::1765216559::1::::<><>::
+F1.png::CompressedTexture2D::1449580487114241073::1765216538::1765216559::1::::<><>::
+F2.png::CompressedTexture2D::3398108605179542911::1765216538::1765216559::1::::<><>::
+F3.png::CompressedTexture2D::5801933853482874720::1765216538::1765216559::1::::<><>::
+F4.png::CompressedTexture2D::7826538424865552576::1765216555::1765216559::1::::<><>::
+::res://animations/tools/Character vj walk broom anim - back/::1747461336
+F0.png::CompressedTexture2D::2587476681658679198::1746819587::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::5397620158149755168::1746819587::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::4708928830523719137::1746819587::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::2520028942829476049::1746819587::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::6567112577742332572::1746819587::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::7339292654180136810::1746819587::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::3880259655711229685::1746819587::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::742053428212281607::1746819587::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk broom anim - front/::1747461336
+F0.png::CompressedTexture2D::8893858771944824696::1746819519::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::7764290554595741517::1746819519::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::35940309072536361::1746819519::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::1728136083282711628::1746819519::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::4167750761404050900::1746819519::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::5948155785652541201::1746819519::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::3496112498207724494::1746819519::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::6280572264794372892::1746819519::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk broom anim - left/::1750204803
+F0.png::CompressedTexture2D::8255018880614048290::1746819661::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::6607561987848163406::1746819661::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::5148138920347223685::1746819661::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::5220486125965810082::1746819661::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::4103007766807788465::1746819661::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::3569962229317786738::1746819661::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::792693359324725956::1746819661::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::2686503478350668064::1746819661::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk broom anim - left/Character vj walk broom anim - left updated/::1750205114
+F0.png::CompressedTexture2D::1652441985072435743::1749594969::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::2117839409735186781::1749594969::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::7641376246406313578::1749594969::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::1432119862670822287::1749594969::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::1769194831020001784::1749594969::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::5453899911366441772::1749594969::1750205114::1::::<><>::
+F6.png::CompressedTexture2D::4840308975331627494::1749594969::1750205114::1::::<><>::
+F7.png::CompressedTexture2D::3700408197507668450::1749594969::1750205114::1::::<><>::
+::res://animations/tools/Character vj walk broom anim - right/::1750204810
+F0.png::CompressedTexture2D::1335611416776411000::1746819630::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::2780196802246653143::1746819630::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::2645889708463453496::1746819630::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::8403854988522973518::1746819630::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::8068190793941583297::1746819630::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::434884085634298952::1746819630::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::5211213934424740302::1746819630::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::3869719284204299851::1746819630::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk broom anim - right/Character vj walk broom anim - right updated/::1750205114
+F0.png::CompressedTexture2D::5633878631823211642::1749594920::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::3668147714042649749::1749594920::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::6856508525649135198::1749594920::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::1101610173699360354::1749594920::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::8084456287699274487::1749594920::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::8464227656633409582::1749594920::1750205114::1::::<><>::
+F6.png::CompressedTexture2D::1502093393822095479::1749594920::1750205114::1::::<><>::
+F7.png::CompressedTexture2D::1726847383841618281::1749594920::1750205114::1::::<><>::
+::res://animations/tools/Character vj walk dry mop anim - back/::1747461336
+F0.png::CompressedTexture2D::1070479021369048091::1746820400::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::1949674000035565440::1746820400::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::8735341885767227717::1746820400::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::3882360334918812623::1746820400::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::728556677156556745::1746820400::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::4536469699411427705::1746820400::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::9116451654130825815::1746820400::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::4158419770393039569::1746820400::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk dry mop anim - front/::1747461336
+F0.png::CompressedTexture2D::4451512674886500825::1746820337::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::8940176300593612967::1746820337::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::6511964011455427859::1746820337::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::6361817447977992216::1746820337::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::2511553226909599523::1746820337::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::2339549954584753279::1746820337::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::468472797850490202::1746820337::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::4733912149324288612::1746820337::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk dry mop anim - left/::1750204825
+F0.png::CompressedTexture2D::8639014259101297354::1746820450::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::7246920120505889101::1746820450::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::2615692296984682847::1746820450::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::7609594580168365850::1746820450::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::6428904296215326131::1746820450::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::1357385969900390758::1746820450::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::5199484953309708918::1746820450::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::896753855153486335::1746820450::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk dry mop anim - left/Character vj walk dry mop anim - left updated/::1750205114
+F0.png::CompressedTexture2D::5605443949703376597::1749595040::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::1101562138585173007::1749595040::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::6094647587670026095::1749595040::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::3606761349386669714::1749595040::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::2952854933389300837::1749595040::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::5518918870796385646::1749595040::1750205114::1::::<><>::
+F6.png::CompressedTexture2D::1354104756976338590::1749595040::1750205114::1::::<><>::
+F7.png::CompressedTexture2D::7943176488032987681::1749595040::1750205114::1::::<><>::
+::res://animations/tools/Character vj walk dry mop anim - right/::1750204875
+F0.png::CompressedTexture2D::2723594728265859263::1746820428::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::495134954260631610::1746820428::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::8449321576697834463::1746820428::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::5090842745102303106::1746820428::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::7604059360421864343::1746820428::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::6023339121580258146::1746820428::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::7263591993664410607::1746820428::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::5947612951457146868::1746820428::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk dry mop anim - right/Character vj walk dry mop anim - right updated/::1750205114
+F0.png::CompressedTexture2D::8236881055497658582::1749595008::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::1331160973629050507::1749595008::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::2345690382379004356::1749595008::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::7669358261120917231::1749595008::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::2628683109309297437::1749595008::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::3522109430123529230::1749595008::1750205114::1::::<><>::
+F6.png::CompressedTexture2D::7235991786077397682::1749595008::1750205114::1::::<><>::
+F7.png::CompressedTexture2D::7751003766972461263::1749595008::1750205114::1::::<><>::
+::res://animations/tools/Character vj walk dry rag anim - back/::1747852362
+F0.png::CompressedTexture2D::2735696245983992330::1747699020::1747852362::1::::<><>::
+F1.png::CompressedTexture2D::8832892509780713429::1747699020::1747852362::1::::<><>::
+F2.png::CompressedTexture2D::371357454933005344::1747699021::1747852362::1::::<><>::
+F3.png::CompressedTexture2D::6406330613025823933::1747699021::1747852362::1::::<><>::
+F4.png::CompressedTexture2D::1677457225098062963::1747699021::1747852362::1::::<><>::
+F5.png::CompressedTexture2D::8966692162097378637::1747699021::1747852362::1::::<><>::
+F6.png::CompressedTexture2D::2661198940053815433::1747699021::1747852362::1::::<><>::
+F7.png::CompressedTexture2D::557347979715690288::1747699021::1747852362::1::::<><>::
+::res://animations/tools/Character vj walk dry rag anim - front/::1747852362
+F0.png::CompressedTexture2D::1617010424279275940::1747699000::1747852362::1::::<><>::
+F1.png::CompressedTexture2D::3444467718761316127::1747699000::1747852362::1::::<><>::
+F2.png::CompressedTexture2D::5343058680504705040::1747699000::1747852362::1::::<><>::
+F3.png::CompressedTexture2D::6105503479073622887::1747699000::1747852362::1::::<><>::
+F4.png::CompressedTexture2D::3831283907256806048::1747699000::1747852362::1::::<><>::
+F5.png::CompressedTexture2D::4983774484437588194::1747699000::1747852362::1::::<><>::
+F6.png::CompressedTexture2D::2652650286803582884::1747699000::1747852362::1::::<><>::
+F7.png::CompressedTexture2D::7435949962819499781::1747699000::1747852362::1::::<><>::
+::res://animations/tools/Character vj walk dry rag anim - left/::1750204891
+F0.png::CompressedTexture2D::1780645083273814508::1747699065::1747852362::1::::<><>::
+F1.png::CompressedTexture2D::5043582103840404989::1747699065::1747852362::1::::<><>::
+F2.png::CompressedTexture2D::1405752048824882567::1747699065::1747852362::1::::<><>::
+F3.png::CompressedTexture2D::4224828444550096066::1747699065::1747852362::1::::<><>::
+F4.png::CompressedTexture2D::8179820500254655929::1747699065::1747852362::1::::<><>::
+F5.png::CompressedTexture2D::2449588002261318475::1747699065::1747852362::1::::<><>::
+F6.png::CompressedTexture2D::4427062634186562818::1747699065::1747852362::1::::<><>::
+F7.png::CompressedTexture2D::9217141278034264224::1747699065::1747852362::1::::<><>::
+::res://animations/tools/Character vj walk dry rag anim - left/Character vj walk dry rag anim - left updated/::1750205114
+F0.png::CompressedTexture2D::2454670483680724228::1749595253::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::1904812203423667853::1749595253::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::6415052601686039971::1749595253::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::6721679089853765511::1749595253::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::9190055848782578592::1749595253::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::3262165523700142037::1749595253::1750205114::1::::<><>::
+F6.png::CompressedTexture2D::804780965030624201::1749595253::1750205114::1::::<><>::
+F7.png::CompressedTexture2D::3737607771661521025::1749595253::1750205114::1::::<><>::
+::res://animations/tools/Character vj walk dry rag anim - right/::1750204903
+F0.png::CompressedTexture2D::6973533453257259109::1747699039::1747852362::1::::<><>::
+F1.png::CompressedTexture2D::1573660067596975992::1747699039::1747852362::1::::<><>::
+F2.png::CompressedTexture2D::7414467153037816940::1747699039::1747852362::1::::<><>::
+F3.png::CompressedTexture2D::3959321148662517981::1747699039::1747852362::1::::<><>::
+F4.png::CompressedTexture2D::3701994566388628888::1747699039::1747852362::1::::<><>::
+F5.png::CompressedTexture2D::8215713877350548241::1747699039::1747852362::1::::<><>::
+F6.png::CompressedTexture2D::2359124480950785703::1747699039::1747852362::1::::<><>::
+F7.png::CompressedTexture2D::1656475493845953726::1747699039::1747852362::1::::<><>::
+::res://animations/tools/Character vj walk dry rag anim - right/Character vj walk dry rag anim - right updated/::1750205114
+F0.png::CompressedTexture2D::6467721243820539138::1749595230::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::8990425172582074974::1749595230::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::4721320190882358513::1749595230::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::5027233007274164196::1749595230::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::5513615740216635939::1749595230::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::5458113803874182028::1749595230::1750205114::1::::<><>::
+F6.png::CompressedTexture2D::8132695955269180698::1749595230::1750205114::1::::<><>::
+F7.png::CompressedTexture2D::4710880897716681839::1749595230::1750205114::1::::<><>::
+::res://animations/tools/Character vj walk wet mop anim - back/::1747461336
+F0.png::CompressedTexture2D::6654331706955155086::1746821477::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::2343779371576045743::1746821477::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::5491873917530793222::1746821477::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::1572607963444187008::1746821477::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::2549691616178873387::1746821477::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::3404188311792201741::1746821477::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::5310606214791489695::1746821477::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::8639909603904974186::1746821477::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk wet mop anim - front/::1747461336
+F0.png::CompressedTexture2D::2561026314626623731::1746821452::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::6534194749800991833::1746821452::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::2514151195595640214::1746821452::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::4695853962867883769::1746821452::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::4843749497508875244::1746821452::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::2889194596149355705::1746821452::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::8277026281610858072::1746821452::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::5249890038601453742::1746821452::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk wet mop anim - left/::1750204916
+F0.png::CompressedTexture2D::5830938458195269987::1746821520::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::7605271830555772088::1746821520::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::795879395792984364::1746821520::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::8941719604714195867::1746821520::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::5786032481745625105::1746821520::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::2904086709443619614::1746821520::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::1267647785449434398::1746821520::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::649396202348228626::1746821520::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk wet mop anim - left/Character vj walk wet mop anim - left updated/::1750205114
+F0.png::CompressedTexture2D::6277467617499158659::1749595203::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::7810898308288637880::1749595203::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::3298713845032683973::1749595203::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::7928114268454422209::1749595203::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::3222492588684574620::1749595203::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::7185297979398759126::1749595203::1750205114::1::::<><>::
+F6.png::CompressedTexture2D::6795517690203252071::1749595203::1750205114::1::::<><>::
+F7.png::CompressedTexture2D::7076055712698666372::1749595203::1750205114::1::::<><>::
+::res://animations/tools/Character vj walk wet mop anim - right/::1750204923
+F0.png::CompressedTexture2D::4838379381038633177::1746821495::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::8189078272644589840::1746821495::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::830598089131683755::1746821495::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::5351297916951055065::1746821495::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::4522367930837592682::1746821495::1747461336::1::::<><>::
+F5.png::CompressedTexture2D::7668425436854898693::1746821495::1747461336::1::::<><>::
+F6.png::CompressedTexture2D::8179056344828323125::1746821495::1747461336::1::::<><>::
+F7.png::CompressedTexture2D::7097765429703062085::1746821495::1747461336::1::::<><>::
+::res://animations/tools/Character vj walk wet mop anim - right/Character vj walk wet mop anim - right updated/::1750205114
+F0.png::CompressedTexture2D::3717031992623976339::1749595101::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::5936815634889446095::1749595101::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::4203812779053475309::1749595101::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::6535822490273192816::1749595101::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::4738336423968337243::1749595101::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::5256237957104102836::1749595101::1750205114::1::::<><>::
+F6.png::CompressedTexture2D::3527137654177995396::1749595101::1750205114::1::::<><>::
+F7.png::CompressedTexture2D::6087088481886772010::1749595101::1750205114::1::::<><>::
+::res://animations/tools/Character vj walk wet rag anim - back/::1747852362
+F0.png::CompressedTexture2D::612891012659353553::1747698892::1747852362::1::::<><>::
+F1.png::CompressedTexture2D::2359560484523778386::1747698892::1747852362::1::::<><>::
+F2.png::CompressedTexture2D::1413478288418357950::1747698892::1747852362::1::::<><>::
+F3.png::CompressedTexture2D::6978176391200737498::1747698892::1747852362::1::::<><>::
+F4.png::CompressedTexture2D::4581189144375940462::1747698892::1747852362::1::::<><>::
+F5.png::CompressedTexture2D::4340704421938155192::1747698892::1747852362::1::::<><>::
+F6.png::CompressedTexture2D::8479357742027159815::1747698892::1747852362::1::::<><>::
+F7.png::CompressedTexture2D::3703669215325971485::1747698892::1747852362::1::::<><>::
+::res://animations/tools/Character vj walk wet rag anim - front/::1747852362
+F0.png::CompressedTexture2D::4782722774641117051::1747698855::1747852362::1::::<><>::
+F1.png::CompressedTexture2D::4681472287941199966::1747698855::1747852362::1::::<><>::
+F2.png::CompressedTexture2D::5082270478815024352::1747698855::1747852362::1::::<><>::
+F3.png::CompressedTexture2D::3529626827357938730::1747698855::1747852362::1::::<><>::
+F4.png::CompressedTexture2D::3389878494477237127::1747698855::1747852362::1::::<><>::
+F5.png::CompressedTexture2D::6111056924968731860::1747698855::1747852362::1::::<><>::
+F6.png::CompressedTexture2D::5719095625251645835::1747698855::1747852362::1::::<><>::
+F7.png::CompressedTexture2D::4291822674030563067::1747698855::1747852362::1::::<><>::
+::res://animations/tools/Character vj walk wet rag anim - left/::1750204937
+F0.png::CompressedTexture2D::9181662457736704520::1747698968::1747852362::1::::<><>::
+F1.png::CompressedTexture2D::1501601139469406443::1747698968::1747852362::1::::<><>::
+F2.png::CompressedTexture2D::4857943741879326934::1747698968::1747852362::1::::<><>::
+F3.png::CompressedTexture2D::5278644134246254521::1747698968::1747852362::1::::<><>::
+F4.png::CompressedTexture2D::8686812264216533333::1747698968::1747852362::1::::<><>::
+F5.png::CompressedTexture2D::3364350569143426590::1747698968::1747852362::1::::<><>::
+F6.png::CompressedTexture2D::2828034700880223998::1747698968::1747852362::1::::<><>::
+F7.png::CompressedTexture2D::6993530243970839467::1747698968::1747852362::1::::<><>::
+::res://animations/tools/Character vj walk wet rag anim - left/Character vj walk wet rag anim copy - left updated/::1750205114
+F0.png::CompressedTexture2D::8183616128743079765::1749595304::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::8725409602549347401::1749595304::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::2801952485038243855::1749595304::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::6168582659233355943::1749595304::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::8005391036676169590::1749595304::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::8706700062197019274::1749595304::1750205114::1::::<><>::
+F6.png::CompressedTexture2D::8576822788026405775::1749595304::1750205114::1::::<><>::
+F7.png::CompressedTexture2D::20766508912950850::1749595304::1750205114::1::::<><>::
+::res://animations/tools/Character vj walk wet rag anim - right/::1750204942
+F0.png::CompressedTexture2D::4720823137323495045::1747698936::1747852362::1::::<><>::
+F1.png::CompressedTexture2D::5554275016951512287::1747698936::1747852362::1::::<><>::
+F2.png::CompressedTexture2D::8891380704023528852::1747698936::1747852362::1::::<><>::
+F3.png::CompressedTexture2D::408609525957638920::1747698936::1747852362::1::::<><>::
+F4.png::CompressedTexture2D::2502727961560193224::1747698936::1747852362::1::::<><>::
+F5.png::CompressedTexture2D::488757829041705648::1747698936::1747852362::1::::<><>::
+F6.png::CompressedTexture2D::3529503643831719329::1747698936::1747852362::1::::<><>::
+F7.png::CompressedTexture2D::6617455923744158419::1747698936::1747852362::1::::<><>::
+::res://animations/tools/Character vj walk wet rag anim - right/Character vj walk wet rag anim copy - right updated/::1750205114
+F0.png::CompressedTexture2D::8278691182594816796::1749595281::1750205114::1::::<><>::
+F1.png::CompressedTexture2D::8545042029579167512::1749595281::1750205114::1::::<><>::
+F2.png::CompressedTexture2D::8223094998762130781::1749595281::1750205114::1::::<><>::
+F3.png::CompressedTexture2D::5083952084686903128::1749595281::1750205114::1::::<><>::
+F4.png::CompressedTexture2D::1297973497990509029::1749595281::1750205114::1::::<><>::
+F5.png::CompressedTexture2D::5724576818419232325::1749595281::1750205114::1::::<><>::
+F6.png::CompressedTexture2D::9122299589680747709::1749595281::1750205114::1::::<><>::
+F7.png::CompressedTexture2D::7013034226071584271::1749595281::1750205114::1::::<><>::
+::res://animations/tools/Door and anim/::1744662412
+F0.png::CompressedTexture2D::2488905219342300131::1744579016::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::7937225974990220881::1744579016::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::3914663164007130410::1744579016::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::1834732243667154241::1744579016::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::8358721394661656151::1744579016::1744662412::1::::<><>::
+F5.png::CompressedTexture2D::6964844444070288984::1744579016::1744662412::1::::<><>::
+::res://animations/tools/Dry rag walking anim/::1747689920
+::res://animations/tools/Dry rag walking anim/Back/::1747690138
+F0.png::CompressedTexture2D::674020431092124591::1747689944::1747690138::1::::<><>::
+::res://animations/tools/Dry rag walking anim/Front/::1747690138
+F0.png::CompressedTexture2D::3721026857615437624::1747689903::1747690138::1::::<><>::
+::res://animations/tools/Dry rag walking anim/Left/::1747690138
+F0.png::CompressedTexture2D::9150067757995096521::1747689980::1747690138::1::::<><>::
+::res://animations/tools/Dry rag walking anim/Right/::1747690138
+F0.png::CompressedTexture2D::1897844484504335245::1747689963::1747690138::1::::<><>::
+::res://animations/tools/Mop animation back/::1744662412
+F0.png::CompressedTexture2D::797853758831066933::1744578591::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::3500415913925006754::1744578591::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::4037474379661501148::1744578591::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::2575340101632591439::1744578591::1744662412::1::::<><>::
+::res://animations/tools/Mop animation Front/::1744662412
+F0.png::CompressedTexture2D::628261709282282458::1744578534::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::3285838212742512612::1744578534::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::1887772958685380368::1744578534::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::3696863006077634503::1744578534::1744662412::1::::<><>::
+::res://animations/tools/Mop animation left/::1747852892
+F0.png::CompressedTexture2D::3747626028212941185::1747852839::1747852892::1::::<><>::
+F1.png::CompressedTexture2D::6717788104176357551::1747852839::1747852892::1::::<><>::
+F2.png::CompressedTexture2D::5243238940126419780::1747852839::1747852892::1::::<><>::
+F3.png::CompressedTexture2D::5647259396360091147::1747852839::1747852892::1::::<><>::
+::res://animations/tools/Mop animation right /::1744662412
+F0.png::CompressedTexture2D::8845945673806184029::1744578612::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::7165236428028993711::1744578612::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::6336383312536630985::1744578612::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::6645994179475084202::1744578612::1744662412::1::::<><>::
+::res://animations/tools/Rag animation back/::1744662412
+F0.png::CompressedTexture2D::8005858117784519095::1744578342::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::4726794119604521303::1744578342::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::4537866833120697775::1744578342::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::3186666178645560403::1744578342::1744662412::1::::<><>::
+::res://animations/tools/Rag animation Front/::1744662412
+F0.png::CompressedTexture2D::1678363631336662567::1744578272::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::5142643989857603543::1744578272::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::1387752110264511970::1744578272::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::7299810276557121467::1744578272::1744662412::1::::<><>::
+::res://animations/tools/Rag animation left/::1747852892
+F0.png::CompressedTexture2D::1514787202997871286::1747852874::1747852892::1::::<><>::
+F1.png::CompressedTexture2D::7160332028844294532::1747852874::1747852892::1::::<><>::
+F2.png::CompressedTexture2D::8861881914979666618::1747852874::1747852892::1::::<><>::
+F3.png::CompressedTexture2D::925665906422498520::1747852874::1747852892::1::::<><>::
+::res://animations/tools/Rag animation right/::1744662412
+F0.png::CompressedTexture2D::355255468954691840::1744578443::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::2122077438074486133::1744578443::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::445792335576035544::1744578443::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::1019558211617693658::1744578443::1744662412::1::::<><>::
+::res://animations/tools/Rag dry 2 ways/::1749579137
+F0.png::CompressedTexture2D::7508470526198815236::1744579157::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::7003736168706434345::1749579097::1749579137::1::::<><>::
+::res://animations/tools/Rag rag wet 2 ways/::1749579137
+F0.png::CompressedTexture2D::177942131770497015::1744579196::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::5552380986574378219::1749579127::1749579137::1::::<><>::
+::res://animations/tools/Straw and dirt/::1744662412
+F0.png::CompressedTexture2D::1997737615774467319::1744578798::1744662412::1::::<><>::
+F1.png::CompressedTexture2D::2641977885282607180::1744578798::1744662412::1::::<><>::
+F2.png::CompressedTexture2D::3704234308406101312::1744578798::1744662412::1::::<><>::
+F3.png::CompressedTexture2D::157595644665608904::1744578798::1744662412::1::::<><>::
+F4.png::CompressedTexture2D::8904004883934668150::1744578798::1744662412::1::::<><>::
+::res://animations/tools/Water and cleanup anim/::1765218953
+F0.png::CompressedTexture2D::722772271858803248::1765218944::1765218953::1::::<><>::
+F1.png::CompressedTexture2D::2425006671591933864::1765218944::1765218953::1::::<><>::
+F2.png::CompressedTexture2D::3592636462436594353::1765218944::1765218953::1::::<><>::
+F3.png::CompressedTexture2D::5209771732998272572::1765218944::1765218953::1::::<><>::
+F4.png::CompressedTexture2D::2136599966740030036::1765218944::1765218953::1::::<><>::
+::res://animations/tools/Wet rag walking anim/::1747689721
+::res://animations/tools/Wet rag walking anim/Back/::1747690138
+F0.png::CompressedTexture2D::7235661618395411537::1747689756::1747690138::1::::<><>::
+::res://animations/tools/Wet rag walking anim/Front/::1747690138
+F0.png::CompressedTexture2D::6909342725036798500::1747689698::1747690138::1::::<><>::
+::res://animations/tools/Wet rag walking anim/Left/::1747690138
+F0.png::CompressedTexture2D::2519218030708260631::1747689871::1747690138::1::::<><>::
+::res://animations/tools/Wet rag walking anim/Right/::1747690138
+F0.png::CompressedTexture2D::2800654199838448163::1747689848::1747690138::1::::<><>::
+::res://characters/::1765383940
+::res://characters/Misc/::1765385467
+blank_char.png::CompressedTexture2D::6391777047865131811::1765385328::1765385467::1::::<><>::
+::res://characters/Player/::1744152141
+F0.png::CompressedTexture2D::6021166919256177235::1744136214::1744152141::1::::<><>::
+F1.png::CompressedTexture2D::4351264492298968470::1744136261::1744152141::1::::<><>::
+F2.png::CompressedTexture2D::9020901757080896997::1744136333::1744152141::1::::<><>::
+F3.png::CompressedTexture2D::8733465816737401678::1744136309::1744152141::1::::<><>::
+::res://characters/Vampire1/::1744152141
+F0.png::CompressedTexture2D::5823362262755845556::1744135430::1744152141::1::::<><>::
+F1.png::CompressedTexture2D::2740990945813833377::1744135456::1744152141::1::::<><>::
+F2.png::CompressedTexture2D::5523328675584976766::1744135373::1744152141::1::::<><>::
+F3.png::CompressedTexture2D::5449939159145664590::1744135404::1744152141::1::::<><>::
+::res://props/::1747685425
+lvl_0_bg.png::CompressedTexture2D::8031373881780589848::1744578919::1744662412::1::::<><>::
+mop_dry.png::CompressedTexture2D::3241193275890460505::1744579103::1744662412::1::::<><>::
+mop_wet.png::CompressedTexture2D::8703621283157971887::1744579071::1744662412::1::::<><>::
+ragged_bed.png::CompressedTexture2D::3653584142043208608::1744579050::1744662412::1::::<><>::
+torch1.png::CompressedTexture2D::1828297594448803769::1730246397::1744662412::1::::<><>::
+torch2.png::CompressedTexture2D::7782556946591422693::1730246397::1744662412::1::::<><>::
+torch3.png::CompressedTexture2D::7653582845519714685::1730246397::1744662412::1::::<><>::
+wooden_door.png::CompressedTexture2D::775698484654735223::1744578988::1744662412::1::::<><>::
+::res://props/_dirt/::1747461336
+F0.png::CompressedTexture2D::231321905710599138::1744578828::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::732098063654437967::1744578828::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::3958546903833092166::1744578828::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::4289583516410942737::1744578828::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::414213609706633353::1744578828::1747461336::1::::<><>::
+::res://props/Broom/::1747684167
+F0.png::CompressedTexture2D::5916333221704892721::1747606991::1747684167::1::::<><>::
+::res://props/Rag dry 2 ways/::1747684533
+F0.png::CompressedTexture2D::7508470526198815236::1747684492::1747684495::1::::<><>::
+F1.png::CompressedTexture2D::7003736168706434345::1747684529::1747684533::1::::<><>::
+::res://props/Rag rag wet 2 ways/::1744664663
+F0.png::CompressedTexture2D::177942131770497015::1744579196::1744664663::1::::<><>::
+F1.png::CompressedTexture2D::5552380986574378219::1744579196::1744664663::1::::<><>::
+::res://props/random/::1747685433
+bg.png::CompressedTexture2D::6807817295773217037::1739913466::1747685433::1::::<><>::
+broom.png::CompressedTexture2D::2342622633279185607::1739912722::1747685433::1::::<><>::
+crate1.png::CompressedTexture2D::8992420946569206820::1739921456::1747685433::1::::<><>::
+crate2.png::CompressedTexture2D::6144641764404543063::1739921592::1747685433::1::::<><>::
+crate3.png::CompressedTexture2D::595145812587334011::1739921646::1747685433::1::::<><>::
+crate4.png::CompressedTexture2D::375219044738902007::1739921686::1747685433::1::::<><>::
+down_mop.png::CompressedTexture2D::671357982520696934::1739912900::1747685433::1::::<><>::
+hay.png::CompressedTexture2D::5276799456083779110::1739913314::1747685433::1::::<><>::
+lifted_mop.png::CompressedTexture2D::4751548193592665658::1739912854::1747685433::1::::<><>::
+player1.png::CompressedTexture2D::716265685105754859::1739921847::1747685433::1::::<><>::
+player2.png::CompressedTexture2D::231796843014062380::1739921905::1747685433::1::::<><>::
+rag_unused.png::CompressedTexture2D::2159503455234817020::1739913074::1747685433::1::::<><>::
+rag_used.png::CompressedTexture2D::6832594917596106649::1739913119::1747685433::1::::<><>::
+spray.png::CompressedTexture2D::5336899057982771561::1739922116::1747685433::1::::<><>::
+spray_spraying.png::CompressedTexture2D::1677812037283643757::1739922164::1747685433::1::::<><>::
+table.png::CompressedTexture2D::6196797034673368209::1739921397::1747685433::1::::<><>::
+VJ background level 0.png::CompressedTexture2D::7579905972146863180::1744135232::1747685433::1::::<><>::
+::res://props/Straw and dirt/::1747461336
+F0.png::CompressedTexture2D::7342200904827865824::1744578798::1747461336::1::::<><>::
+F1.png::CompressedTexture2D::7844623794256587234::1744578798::1747461336::1::::<><>::
+F2.png::CompressedTexture2D::1670479487439611905::1744578798::1747461336::1::::<><>::
+F3.png::CompressedTexture2D::1756334017980935405::1744578798::1747461336::1::::<><>::
+F4.png::CompressedTexture2D::538331859838078645::1744578798::1747461336::1::::<><>::
+::res://props/TutorialMesses/::1743790388
+dirt1.png::CompressedTexture2D::6724658051829390465::1739926193::1743790388::1::::<><>::
+wall_mess1.png::CompressedTexture2D::6206143402104708103::1739926141::1743790388::1::::<><>::
+wall_mess2.png::CompressedTexture2D::8681111811245086897::1739926230::1743790388::1::::<><>::
+water1.png::CompressedTexture2D::5700026857491256537::1739925970::1743790388::1::::<><>::
+water2.png::CompressedTexture2D::3589711836564097676::1739926019::1743790388::1::::<><>::
+water3.png::CompressedTexture2D::8306299186172333872::1739926060::1743790388::1::::<><>::
+water4.png::CompressedTexture2D::8489539338557119787::1739926101::1743790388::1::::<><>::
+::res://replaced_assets/::1747461336
+bg.png::CompressedTexture2D::6807817295773217037::1739913466::1747461336::1::::<><>::
+broom1.png::CompressedTexture2D::709110235561578665::1741644016::1747461336::1::::<><>::
+broom2.png::CompressedTexture2D::7775285043291402698::1741644040::1747461336::1::::<><>::
+broom3.png::CompressedTexture2D::3255649966863582265::1741644067::1747461336::1::::<><>::
+broom4.png::CompressedTexture2D::8723840798934163124::1741644089::1747461336::1::::<><>::
+broom.png::CompressedTexture2D::2342622633279185607::1739912722::1747461336::1::::<><>::
+down_mop1.png::CompressedTexture2D::5787418542227597507::1740605960::1747461336::1::::<><>::
+down_mop2.png::CompressedTexture2D::279062859377808747::1740605980::1747461336::1::::<><>::
+down_mop3.png::CompressedTexture2D::2019648409718337959::1740605999::1747461336::1::::<><>::
+down_mop4.png::CompressedTexture2D::1597210653987262413::1740606022::1747461336::1::::<><>::
+down_mop.png::CompressedTexture2D::671357982520696934::1739912900::1747461336::1::::<><>::
+hay.png::CompressedTexture2D::5276799456083779110::1739913314::1747461336::1::::<><>::
+holding1.png::CompressedTexture2D::1048628680981424386::1740087773::1747461336::1::::<><>::
+holding2.png::CompressedTexture2D::2601342836411127457::1740087805::1747461336::1::::<><>::
+holding3.png::CompressedTexture2D::4381260063669828861::1740087842::1747461336::1::::<><>::
+holding4.png::CompressedTexture2D::9111768882769135400::1740087868::1747461336::1::::<><>::
+holding5.png::CompressedTexture2D::7102858919913061680::1740087895::1747461336::1::::<><>::
+holding.png::CompressedTexture2D::4195691574499763004::1740085173::1747461336::1::::<><>::
+lifted_mop.png::CompressedTexture2D::4751548193592665658::1739912854::1747461336::1::::<><>::
+player1.png::CompressedTexture2D::716265685105754859::1739921847::1747461336::1::::<><>::
+player2.png::CompressedTexture2D::231796843014062380::1739921905::1747461336::1::::<><>::
+rag_scrub.png::CompressedTexture2D::7700251500814982338::1742414727::1747461336::1::::<><>::
+rag_unused.png::CompressedTexture2D::2159503455234817020::1739913074::1747461336::1::::<><>::
+rag_used.png::CompressedTexture2D::6832594917596106649::1739913119::1747461336::1::::<><>::
+spray.png::CompressedTexture2D::5336899057982771561::1739922116::1747461336::1::::<><>::
+spray_spraying.png::CompressedTexture2D::1677812037283643757::1739922164::1747461336::1::::<><>::
+two_hands.png::CompressedTexture2D::7034524706472591760::1742333127::1747461336::1::::<><>::
+Walk1.png::CompressedTexture2D::8831781066206113361::1740087599::1747461336::1::::<><>::
+Walk2.png::CompressedTexture2D::145342716478621888::1740087627::1747461336::1::::<><>::
+Walk3.png::CompressedTexture2D::2324918949114839284::1740087664::1747461336::1::::<><>::
+Walk4.png::CompressedTexture2D::353357821240004059::1740087693::1747461336::1::::<><>::
+Walk5.png::CompressedTexture2D::8559816327144799665::1740087725::1747461336::1::::<><>::
+::res://replaced_assets/TutorialMesses/::1747461336
+dirt1.png::CompressedTexture2D::6724658051829390465::1739926193::1747461336::1::::<><>::
+wall_mess1.png::CompressedTexture2D::6206143402104708103::1739926141::1747461336::1::::<><>::
+wall_mess2.png::CompressedTexture2D::8681111811245086897::1739926230::1747461336::1::::<><>::
+water1.png::CompressedTexture2D::5700026857491256537::1739925970::1747461336::1::::<><>::
+water2.png::CompressedTexture2D::3589711836564097676::1739926019::1747461336::1::::<><>::
+water3.png::CompressedTexture2D::8306299186172333872::1739926060::1747461336::1::::<><>::
+water4.png::CompressedTexture2D::8489539338557119787::1739926101::1747461336::1::::<><>::
+::res://Scenes/::1743792427
+::res://Scenes/Characters/::1765390164
+player.gd::GDScript::-1::1765383478::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::3883242265183202405::1765390164::0::1::::<><>::res://Scenes/Characters/player.gd<>uid://b281xqf4gaiyg::::res://characters/Player/F1.png<>uid://cr1x0e2uss0s2::::res://characters/Player/F0.png<>uid://b7mdpec8vk0mx::::res://animations/tools/broom_animation_front/F0.png<>uid://d1r160wyiegbl::::res://characters/Player/F2.png<>uid://i7lm4u8vdyow::::res://animations/tools/Mop animation Front/F0.png<>uid://bm2xjmijfke5y::::res://animations/tools/Mop animation Front/F1.png<>uid://dwos52mpu6tsg::::res://characters/Player/F3.png<>uid://15plyu5xadrs::::res://animations/tools/Mop animation Front/F2.png<>uid://by1eumppnxs13::::res://animations/movement/Bucket/Bucket and splash anim walk front/F0.png<>uid://cn4nmc8gooecs::::res://animations/tools/broom_animation_front/F1.png<>uid://b4ol07p63j1cf::::res://animations/tools/Character vj walk dry mop anim - front/F0.png<>uid://cnk1ymw0be5nr::::res://animations/movement/Bucket/Bucket and splash anim walk left/F0.png<>uid://bjcbot0pkmw04::::res://animations/tools/broom_animation_front/F2.png<>uid://bsw118nldjno6::::res://animations/tools/Mop animation Front/F3.png<>uid://ekedyr6yiib2::::res://animations/tools/broom_animation_front/F3.png<>uid://btaq1eu3jfwx1::::res://animations/tools/Dry rag walking anim/Front/F0.png<>uid://1r5prm1e5scp::::res://animations/movement/Bucket/Bucket and splash anim walk right/F0.png<>uid://btnm4aiguf7cv::::res://animations/tools/Mop animation left/F0.png<>uid://dl7p01eyerng4::::res://animations/movement/Bucket/Bucket and splash anim walk back/F0.png<>uid://c2ye8u2yvrnoh::::res://animations/tools/Mop animation left/F1.png<>uid://jbpvlw2x1c2g::::res://animations/tools/broom_animation_left/F0.png<>uid://cry4dh1qed1qu::::res://animations/tools/broom_animation_left/F1.png<>uid://cgx4m5p5l6jo3::::res://animations/tools/Mop animation left/F2.png<>uid://cmptsi8pfe55h::::res://animations/tools/Mop animation left/F3.png<>uid://cg8hc3qs2lyae::::res://animations/tools/broom_animation_left/F2.png<>uid://dvc2kj5g8lugg::::res://animations/tools/Character vj walk dry mop anim - left/F0.png<>uid://dybboymkafbov::::res://animations/tools/Mop animation right /F0.png<>uid://ca82qjjgxkpir::::res://animations/tools/broom_animation_left/F3.png<>uid://be2lhbt32iyff::::res://animations/tools/Character vj walk dry mop anim - right/F0.png<>uid://dac5nrchy32ln::::res://animations/tools/Mop animation right /F1.png<>uid://pisvr3xu2fl0::::res://animations/tools/Character vj walk dry mop anim - back/F0.png<>uid://dlutvinm8h5ga::::res://animations/tools/broom_animation_right/F0.png<>uid://cwjnkpmccsibx::::res://animations/tools/Mop animation right /F2.png<>uid://dohdvthuqnlww::::res://animations/tools/broom_animation_right/F1.png<>uid://b7jx5bg2kryk4::::res://animations/tools/broom_animation_right/F2.png<>uid://0ms712pa5a73::::res://animations/tools/Character vj walk dry rag anim - left/F0.png<>uid://c1xms2o1kt3jq::::res://animations/tools/Mop animation right /F3.png<>uid://lmqsgjmawj6d::::res://animations/tools/Mop animation back/F0.png<>uid://c6mbcvfqqa6mr::::res://animations/tools/Character vj walk dry rag anim - right/F0.png<>uid://ddftgx1yfi4qm::::res://animations/tools/broom_animation_right/F3.png<>uid://bp4vlrrxgy307::::res://animations/tools/Mop animation back/F1.png<>uid://864rq8vyx0b8::::res://animations/tools/broom_animation_back/F0.png<>uid://be8gruhcww8hi::::res://animations/tools/Character vj walk dry rag anim - back/F0.png<>uid://bxr1u32jjdwsy::::res://animations/tools/Mop animation back/F2.png<>uid://us6qekc6iosa::::res://animations/tools/broom_animation_back/F1.png<>uid://bcxrqfly5kiux::::res://animations/tools/Mop animation back/F3.png<>uid://hv1ldoyvi1i1::::res://animations/tools/broom_animation_back/F2.png<>uid://bcqty18yaddeh::::res://animations/tools/Character vj walk wet mop anim - front/F0.png<>uid://bpq7l7q8fmh8y::::res://animations/tools/broom_animation_back/F3.png<>uid://cpcsx7nq8dg0r::::res://animations/tools/Character vj walk wet mop anim - left/F0.png<>uid://x6any12j5rpf::::res://animations/tools/Rag animation Front/F0.png<>uid://ca60nwe61mpb2::::res://animations/tools/Character vj walk wet mop anim - right/F0.png<>uid://cfjeuiakdjq76::::res://animations/tools/Rag animation Front/F1.png<>uid://c12n4u46mk3os::::res://animations/tools/Character vj walk wet mop anim - back/F0.png<>uid://t1icsei7qe7s::::res://animations/tools/Rag animation Front/F2.png<>uid://cae10luuncwrb::::res://animations/tools/Character vj walk wet rag anim - front/F0.png<>uid://dcac2q5xnq7tf::::res://animations/tools/Rag animation Front/F3.png<>uid://c8ckjq5q2nma6::::res://animations/movement/Character vj walk anim left/F1.png<>uid://vt1lapmhnov3::::res://animations/tools/Rag animation left/F0.png<>uid://d32wvy67mr7pc::::res://animations/tools/Character vj walk wet rag anim - left/F0.png<>uid://5rexwn3n7lxh::::res://animations/movement/Character vj walk anim left/F2.png<>uid://mnvvdo0l34dr::::res://animations/movement/Character vj walk anim front/F2.png<>uid://daarvfp6n7lv5::::res://animations/tools/Rag animation left/F1.png<>uid://0q63kw7ns7v2::::res://animations/movement/Character vj walk anim left/F3.png<>uid://b8i2jdb7sehv6::::res://animations/tools/Character vj walk wet rag anim - right/F0.png<>uid://2k26q8gvllks::::res://animations/movement/Character vj walk anim front/F3.png<>uid://iy5hwuptpy8h::::res://animations/tools/Character vj walk wet rag anim - back/F0.png<>uid://bqox1qhx6ptjc::::res://animations/movement/Character vj walk anim front/F4.png<>uid://d10df5i6sihj2::::res://animations/movement/Character vj walk anim left/F4.png<>uid://dyi05u4omitha::::res://animations/tools/Rag animation left/F2.png<>uid://ngnt2ciwpxe3::::res://animations/tools/Rag animation left/F3.png<>uid://dxyq6qtkjsc70::::res://animations/movement/Character vj walk anim left/F5.png<>uid://ckajtb3lsh1ed::::res://animations/movement/Character vj walk anim front/F5.png<>uid://mdbqymcnfgqe::::res://animations/movement/Character vj walk anim front/F6.png<>uid://d2mr47svay3gq::::res://animations/movement/Character vj walk anim left/F6.png<>uid://fcdags4kn0do::::res://animations/tools/Rag animation right/F0.png<>uid://5h7knadfy7hx::::res://animations/tools/Rag animation right/F1.png<>uid://xmdd24he3p7::::res://animations/movement/Character vj walk anim front/F7.png<>uid://buwlfnseyxh43::::res://animations/movement/Character vj walk anim left/F7.png<>uid://dh56jxdljn4r::::res://animations/movement/Character vj walk anim right/F1.png<>uid://gl7etvy0qd1i::::res://animations/tools/Rag animation right/F2.png<>uid://cwici772p3um3::::res://animations/movement/Character vj walk anim right/F2.png<>uid://or48e38wli0q::::res://animations/tools/Rag animation right/F3.png<>uid://ckweo6vgo3jlu::::res://animations/movement/Character vj walk anim right/F3.png<>uid://4ey2l213wlip::::res://animations/movement/Character vj walk anim right/F4.png<>uid://dvkxs1vm1yasy::::res://animations/movement/Character vj walk anim right/F5.png<>uid://dmcdkwo7vked8::::res://animations/tools/Rag animation back/F0.png<>uid://djs8mut8hy35l::::res://animations/movement/Character vj walk anim right/F6.png<>uid://b8lxuxqyegkq6::::res://animations/tools/Rag animation back/F1.png<>uid://dxl7vy2ul2njp::::res://animations/movement/Character vj walk anim right/F7.png<>uid://b5wgaelon0j08::::res://animations/tools/Rag animation back/F2.png<>uid://blnv6q5vahvmp::::res://animations/tools/Rag animation back/F3.png<>uid://cqv1fjfj3cyoy::::res://animations/movement/Character vj walk anim back/F2.png<>uid://deq6gxwe0jm6r::::res://animations/movement/Character vj walk anim back/F3.png<>uid://dcgqofje7uwgp::::res://animations/movement/Character vj walk anim back/F4.png<>uid://ckg0nb0c2wjd2::::res://animations/movement/Character vj walk anim back/F5.png<>uid://bm370hnbav3xq::::res://animations/movement/Character vj walk anim back/F6.png<>uid://c84bfkxkfd123::::res://animations/movement/Character vj walk anim back/F7.png<>uid://dyyis4cvbqplw::::res://animations/tools/Character vj walk broom anim - front/F0.png<>uid://divcy4dp8mdqr::::res://animations/tools/Character vj walk broom anim - front/F1.png<>uid://rn6w8fm1rwj::::res://animations/tools/Character vj walk broom anim - front/F2.png<>uid://yvefca0iuwum::::res://animations/tools/Character vj walk broom anim - front/F3.png<>uid://b0m5imrw10frw::::res://animations/tools/Character vj walk broom anim - front/F4.png<>uid://cq0liy2ovjsbp::::res://animations/tools/Character vj walk broom anim - front/F5.png<>uid://bp2spyexqdqig::::res://animations/tools/Character vj walk broom anim - front/F6.png<>uid://dpu17p4amok5o::::res://animations/tools/Character vj walk broom anim - left/F0.png<>uid://c1e0t0epg0tle::::res://animations/tools/Character vj walk broom anim - left/F1.png<>uid://cfl2di25wuvbp::::res://animations/tools/Character vj walk broom anim - left/F2.png<>uid://cgm3v5g222cuk::::res://animations/tools/Character vj walk broom anim - left/F3.png<>uid://bypr654lcqhgj::::res://animations/tools/Character vj walk broom anim - left/F4.png<>uid://bq4k0yle3sys5::::res://animations/tools/Character vj walk broom anim - left/F5.png<>uid://lj8sqwcnsae3::::res://animations/tools/Character vj walk broom anim - left/F6.png<>uid://bejmk4w3xwic3::::res://animations/tools/Character vj walk broom anim - left/F7.png<>uid://ta8lbt3jrxyu::::res://animations/tools/Character vj walk broom anim - right/F0.png<>uid://bfu0o2a12m65p::::res://animations/tools/Character vj walk broom anim - right/F1.png<>uid://bdxxof78latp5::::res://animations/tools/Character vj walk broom anim - right/F2.png<>uid://dry5i8acdape1::::res://animations/tools/Character vj walk broom anim - right/F3.png<>uid://dm7j6nxekwe2l::::res://animations/tools/Character vj walk broom anim - right/F4.png<>uid://ggwqh25bvjky::::res://animations/tools/Character vj walk broom anim - right/F5.png<>uid://cgil6xsrw1w6i::::res://animations/tools/Character vj walk broom anim - right/F6.png<>uid://bveryggqwgcqt::::res://animations/tools/Character vj walk broom anim - right/F7.png<>uid://bc4nmlr5frppm::::res://animations/tools/Character vj walk broom anim - back/F0.png<>uid://ci5war2m8ql6g::::res://animations/tools/Character vj walk broom anim - back/F1.png<>uid://b8dbmts2mu4qn::::res://animations/tools/Character vj walk broom anim - back/F2.png<>uid://bb5yrj3m73gvp::::res://animations/tools/Character vj walk broom anim - back/F3.png<>uid://c0tfncx11ige3::::res://animations/tools/Character vj walk broom anim - back/F4.png<>uid://dcthcv4d02a8a::::res://animations/tools/Character vj walk broom anim - back/F5.png<>uid://bvjvkr6fyp7xp::::res://animations/tools/Character vj walk broom anim - back/F6.png<>uid://d0mxnrreo8nrj::::res://animations/tools/Character vj walk dry mop anim - front/F1.png<>uid://cy1pdi2vuholn::::res://animations/tools/Character vj walk dry mop anim - front/F2.png<>uid://cwvyg6x5jobto::::res://animations/tools/Character vj walk dry mop anim - front/F3.png<>uid://bb1u6dns2cwh4::::res://animations/tools/Character vj walk dry mop anim - front/F4.png<>uid://8lkbtdut75ih::::res://animations/tools/Character vj walk dry mop anim - front/F5.png<>uid://gw6xcnf50aj7::::res://animations/tools/Character vj walk dry mop anim - front/F6.png<>uid://dbipylh2kgtxd::::res://animations/tools/Character vj walk dry mop anim - left/F1.png<>uid://bdjccm5iwj3yx::::res://animations/tools/Character vj walk dry mop anim - left/F2.png<>uid://dgoe58cmh2mt3::::res://animations/tools/Character vj walk dry mop anim - left/F3.png<>uid://cw2j10iu1u5fm::::res://animations/movement/Bucket/Bucket and splash anim walk front/F1.png<>uid://bkq8li5tdd4qs::::res://animations/movement/Bucket/Bucket and splash anim walk front/F2.png<>uid://cxuhd5lxc2b52::::res://animations/tools/Character vj walk dry mop anim - left/F4.png<>uid://tlr7iucuqnm1::::res://animations/tools/Character vj walk dry mop anim - left/F5.png<>uid://b8v6knhugidcg::::res://animations/movement/Bucket/Bucket and splash anim walk front/F3.png<>uid://c26ip1bneugy6::::res://animations/movement/Bucket/Bucket and splash anim walk front/F4.png<>uid://cgcw00x3jf7ws::::res://animations/tools/Character vj walk dry mop anim - left/F6.png<>uid://m1nn1fhlx8hf::::res://animations/tools/Character vj walk dry mop anim - left/F7.png<>uid://mncarl7yjh5d::::res://animations/movement/Bucket/Bucket and splash anim walk left/F1.png<>uid://hb32hhhjhrh7::::res://animations/tools/Character vj walk dry mop anim - right/F1.png<>uid://c28j85j2siiow::::res://animations/movement/Bucket/Bucket and splash anim walk left/F2.png<>uid://dsm6deikqext4::::res://animations/tools/Character vj walk dry mop anim - right/F2.png<>uid://miiuuvsh4k2o::::res://animations/movement/Bucket/Bucket and splash anim walk left/F3.png<>uid://f3aal2dwuc1p::::res://animations/movement/Bucket/Bucket and splash anim walk right/F1.png<>uid://cesbo3junissg::::res://animations/tools/Character vj walk dry mop anim - right/F3.png<>uid://vfo4umb3nkhc::::res://animations/movement/Bucket/Bucket and splash anim walk right/F2.png<>uid://dglp0ngi8qah0::::res://animations/tools/Character vj walk dry mop anim - right/F4.png<>uid://cr20rrx2nto2m::::res://animations/tools/Character vj walk dry mop anim - right/F5.png<>uid://5l5lfo3lewtt::::res://animations/movement/Bucket/Bucket and splash anim walk right/F3.png<>uid://cqt38cpp44pqt::::res://animations/movement/Bucket/Bucket and splash anim walk back/F1.png<>uid://dbqskfsoko4bj::::res://animations/tools/Character vj walk dry mop anim - right/F6.png<>uid://cq0ck0x7nucym::::res://animations/tools/Character vj walk dry mop anim - right/F7.png<>uid://j2djnwg8wcpe::::res://animations/movement/Bucket/Bucket and splash anim walk back/F2.png<>uid://21o305oikdc7::::res://animations/tools/Character vj walk dry mop anim - back/F1.png<>uid://cs6vtcf6w8aa0::::res://animations/movement/Bucket/Bucket and splash anim walk back/F3.png<>uid://bqu74ejukyi3p::::res://animations/movement/Bucket/Bucket and splash anim walk back/F4.png<>uid://dwpp2memgsoev::::res://animations/tools/Character vj walk dry mop anim - back/F2.png<>uid://bvkv54ch2huyh::::res://animations/tools/Character vj walk dry mop anim - back/F3.png<>uid://km6hswv0wdvt::::res://animations/tools/Character vj walk dry mop anim - back/F4.png<>uid://b5vq81djgniyb::::res://animations/tools/Character vj walk dry mop anim - back/F5.png<>uid://d25cvkujfdjud::::res://animations/tools/Character vj walk dry mop anim - back/F6.png<>uid://bpcr46m4hvuih::::res://animations/tools/Character vj walk dry rag anim - front/F1.png<>uid://ciehnpt8ughe3::::res://animations/tools/Character vj walk dry rag anim - front/F2.png<>uid://cs8s0rk2whqmx::::res://animations/tools/Character vj walk dry rag anim - front/F3.png<>uid://but5xlig83n3e::::res://animations/tools/Character vj walk dry rag anim - front/F4.png<>uid://cdagbjqveg8ck::::res://animations/tools/Character vj walk dry rag anim - front/F5.png<>uid://bd1706v33ii7e::::res://animations/tools/Character vj walk dry rag anim - front/F6.png<>uid://cd4fcb16r61x6::::res://animations/tools/Character vj walk dry rag anim - left/F1.png<>uid://ua7sbw76008j::::res://animations/tools/Character vj walk dry rag anim - left/F2.png<>uid://b1gskpfh65so5::::res://animations/tools/Character vj walk dry rag anim - left/F3.png<>uid://dosmpir52labp::::res://animations/tools/Character vj walk dry rag anim - left/F4.png<>uid://ba5umeegohsud::::res://animations/tools/Character vj walk dry rag anim - left/F5.png<>uid://b4crcspjmgdmo::::res://animations/tools/Character vj walk dry rag anim - left/F6.png<>uid://d4k378tb6h1ya::::res://animations/tools/Character vj walk dry rag anim - left/F7.png<>uid://woj7l21ly7ai::::res://animations/tools/Character vj walk dry rag anim - right/F1.png<>uid://ddvvgqq8f3koy::::res://animations/tools/Character vj walk dry rag anim - right/F2.png<>uid://bwn6o8vlvfbq8::::res://animations/tools/Character vj walk dry rag anim - right/F3.png<>uid://bs0jkr7dn31mi::::res://animations/tools/Character vj walk dry rag anim - right/F4.png<>uid://dpb0uv7sfva38::::res://animations/tools/Character vj walk dry rag anim - right/F5.png<>uid://8u1o2qa5m8oh::::res://animations/tools/Character vj walk dry rag anim - right/F6.png<>uid://xun56h4i271s::::res://animations/tools/Character vj walk dry rag anim - right/F7.png<>uid://dx3ypjg1ni7ph::::res://animations/tools/Character vj walk dry rag anim - back/F1.png<>uid://fj5g5x07f2fc::::res://animations/tools/Character vj walk dry rag anim - back/F2.png<>uid://cxjjlgtwouykj::::res://animations/tools/Character vj walk dry rag anim - back/F3.png<>uid://x5tqft26g1j0::::res://animations/tools/Character vj walk dry rag anim - back/F4.png<>uid://d00sdy86mt1g8::::res://animations/tools/Character vj walk dry rag anim - back/F5.png<>uid://bd6ds70jtob5j::::res://animations/tools/Character vj walk dry rag anim - back/F6.png<>uid://c0dhh6g1p128l::::res://animations/tools/Character vj walk wet mop anim - front/F1.png<>uid://bb24x5rtwaa2a::::res://animations/tools/Character vj walk wet mop anim - front/F2.png<>uid://b75ya8f37aw78::::res://animations/tools/Character vj walk wet mop anim - front/F3.png<>uid://cbal31uskmg17::::res://animations/tools/Character vj walk wet mop anim - front/F4.png<>uid://bhfsu3qyiaqwn::::res://animations/tools/Character vj walk wet mop anim - front/F5.png<>uid://dp6pocc60viiq::::res://animations/tools/Character vj walk wet mop anim - front/F6.png<>uid://dgmbylt62jeia::::res://animations/tools/Character vj walk wet mop anim - left/F1.png<>uid://llsaucxgnqjs::::res://animations/tools/Character vj walk wet mop anim - left/F2.png<>uid://d0no2yx7byvyh::::res://animations/tools/Character vj walk wet mop anim - left/F3.png<>uid://coo2dyyxcikub::::res://animations/tools/Character vj walk wet mop anim - left/F4.png<>uid://bhm05bxmae20a::::res://animations/tools/Character vj walk wet mop anim - left/F5.png<>uid://scb8d0bwc0v7::::res://animations/tools/Character vj walk wet mop anim - left/F6.png<>uid://dow36mwiehcl1::::res://animations/tools/Character vj walk wet mop anim - right/F1.png<>uid://l3l3gr64v3bb::::res://animations/tools/Character vj walk wet mop anim - right/F2.png<>uid://ciihdhwj4fqab::::res://animations/tools/Character vj walk wet mop anim - right/F3.png<>uid://b5ow0enm21k5g::::res://animations/tools/Character vj walk wet mop anim - right/F4.png<>uid://dhiv31v0lwj2l::::res://animations/tools/Character vj walk wet mop anim - right/F5.png<>uid://dor84lwkmb622::::res://animations/tools/Character vj walk wet mop anim - right/F6.png<>uid://8nlx6u6hedjb::::res://animations/tools/Character vj walk wet mop anim - back/F1.png<>uid://ckikmjmwwmjr7::::res://animations/tools/Character vj walk wet mop anim - back/F2.png<>uid://wn1vgv85h8s7::::res://animations/tools/Character vj walk wet mop anim - back/F3.png<>uid://bcldbv7p238jf::::res://animations/tools/Character vj walk wet mop anim - back/F4.png<>uid://boraqpwr2slab::::res://animations/tools/Character vj walk wet mop anim - back/F5.png<>uid://chwq55go7dykt::::res://animations/tools/Character vj walk wet mop anim - back/F6.png<>uid://b7x0fuj4ilhte::::res://animations/tools/Character vj walk wet rag anim - front/F1.png<>uid://cen5ituyhdqp1::::res://animations/tools/Character vj walk wet rag anim - front/F2.png<>uid://bqj1o5rrgo5lm::::res://animations/tools/Character vj walk wet rag anim - front/F3.png<>uid://bokc2k5g43qrv::::res://animations/tools/Character vj walk wet rag anim - front/F4.png<>uid://ctcihkhi6hkca::::res://animations/tools/Character vj walk wet rag anim - front/F5.png<>uid://cnqmw02hls3ut::::res://animations/tools/Character vj walk wet rag anim - front/F6.png<>uid://vnnfe84cfptb::::res://animations/tools/Character vj walk wet rag anim - left/F1.png<>uid://cbhhvg75n1f4i::::res://animations/tools/Character vj walk wet rag anim - left/F2.png<>uid://chhaq6kqkr2xx::::res://animations/tools/Character vj walk wet rag anim - left/F3.png<>uid://dv07r8lh5pmx6::::res://animations/tools/Character vj walk wet rag anim - left/F4.png<>uid://bn6ymk4iw2u35::::res://animations/tools/Character vj walk wet rag anim - left/F5.png<>uid://bgj6k3aeqqv6m::::res://animations/tools/Character vj walk wet rag anim - left/F6.png<>uid://clesdlllwiaex::::res://animations/tools/Character vj walk wet rag anim - right/F1.png<>uid://dyxb0g1de05fk::::res://animations/tools/Character vj walk wet rag anim - right/F2.png<>uid://f260erjplhjs::::res://animations/tools/Character vj walk wet rag anim - right/F3.png<>uid://bbwltf3q2ukvg::::res://animations/tools/Character vj walk wet rag anim - right/F4.png<>uid://g701gfqx2t4c::::res://animations/tools/Character vj walk wet rag anim - right/F5.png<>uid://bqjyn6g8di06p::::res://animations/tools/Character vj walk wet rag anim - right/F6.png<>uid://8u8u7uyk04la::::res://animations/tools/Character vj walk wet rag anim - back/F1.png<>uid://uex1syo05ubm::::res://animations/tools/Character vj walk wet rag anim - back/F2.png<>uid://c6ojss01x1oog::::res://animations/tools/Character vj walk wet rag anim - back/F3.png<>uid://b6jfrsmpnfwuw::::res://animations/tools/Character vj walk wet rag anim - back/F4.png<>uid://b23w1dnq656p5::::res://animations/tools/Character vj walk wet rag anim - back/F5.png<>uid://ds2p1vlm6t53p::::res://animations/tools/Character vj walk wet rag anim - back/F6.png
+vampire_1.gd::GDScript::-1::1760066983::0::1::::<>CharacterBody2D<>::
+vampire_1.tscn::PackedScene::6794218413478669507::1765390164::0::1::::<><>::uid://bfb0yq2e34jtp::::res://characters/Vampire1/F1.png<>res://Scenes/Characters/vampire_1.gd<>uid://ckxsofi8markg::::res://characters/Vampire1/F2.png<>uid://cjv8x4f2yuqnu::::res://characters/Vampire1/F3.png<>uid://co746qcj0lxvg::::res://characters/Vampire1/F0.png<>uid://b81t0hcha67xr::::res://animations/movement/Vampire vj sprite walk anim front/F0.png<>uid://cx3cldvgm8akk::::res://animations/movement/Vampire vj sprite walk anim front/F1.png<>uid://dlnvk7vdv1sn5::::res://animations/movement/Vampire vj sprite walk anim front/F2.png<>uid://2yb4agnic5fb::::res://animations/movement/Vampire vj sprite walk anim front/F3.png<>uid://4vmdskvu57wb::::res://animations/movement/Vampire vj sprite walk anim front/F4.png<>uid://dil816weitt8e::::res://animations/movement/Vampire vj sprite walk anim front/F5.png<>uid://clediwhgl1u4o::::res://animations/movement/Vampire vj sprite walk anim left/F0.png<>uid://ct8dj6lmy6fb8::::res://animations/movement/Vampire vj sprite walk anim left/F1.png<>uid://gl8uwnvqrvl6::::res://animations/movement/Vampire vj sprite walk anim left/F2.png<>uid://ctv6h50kkhwvo::::res://animations/movement/Vampire vj sprite walk anim left/F3.png<>uid://7p2y3l4ql8xg::::res://animations/movement/Vampire vj sprite walk anim left/F4.png<>uid://cyeckjdfdy3kn::::res://animations/movement/Vampire vj sprite walk anim left/F5.png<>uid://d2iiwpdac2b63::::res://animations/movement/Vampire vj sprite walk anim right/F0.png<>uid://dr8ghpme2ytqy::::res://animations/movement/Vampire vj sprite walk anim right/F1.png<>uid://tr2ti6imon6l::::res://animations/movement/Vampire vj sprite walk anim right/F2.png<>uid://8qyvt285goxl::::res://animations/movement/Vampire vj sprite walk anim right/F3.png<>uid://dxp37wkrhi6t7::::res://animations/movement/Vampire vj sprite walk anim right/F4.png<>uid://c5wljw317jiu3::::res://animations/movement/Vampire vj sprite walk anim right/F5.png<>uid://cksp2qp8n43a8::::res://animations/movement/Vampire vj sprite walk anim back/F0.png<>uid://dt15os3ogr2km::::res://animations/movement/Vampire vj sprite walk anim back/F1.png<>uid://doiain0xyxaaj::::res://animations/movement/Vampire vj sprite walk anim back/F2.png<>uid://baufkynyue8ee::::res://animations/movement/Vampire vj sprite walk anim back/F3.png<>uid://dyk0r6n1lxuqr::::res://animations/movement/Vampire vj sprite walk anim back/F4.png<>uid://cshgs8e1jjhm3::::res://animations/movement/Vampire vj sprite walk anim back/F5.png
+::res://Scenes/Game/::1765390164
+game.gd::GDScript::-1::1765382700::0::1::::<>Node2D<>::
+game.tscn::PackedScene::7384984118265470089::1765390164::0::1::::<><>::res://Scenes/Game/game.gd<>uid://c2w4r655a0nv0::::res://Scenes/Levels/level_0.tscn
+::res://Scenes/Levels/::1765390164
+level_0.gd::GDScript::-1::1765390066::0::1::::<>Node2D<>::
+level_0.tscn::PackedScene::6715149283421050271::1765390164::0::1::::<><>::res://Scenes/Levels/level_0.gd<>uid://dmops36q2mnto::::res://props/lvl_0_bg.png<>uid://bvlcoyjfekddd::::res://Scenes/Characters/player.tscn<>uid://becpvu7wjrfr0::::res://Scenes/Stuff/torch.tscn<>uid://cijjhvnl08s8h::::res://Scenes/Stuff/torch_light.tscn<>res://exit_door.gd<>uid://b25iahmp52lf2::::res://Scenes/Stuff/broom.tscn<>uid://csg2in5obl6ob::::res://Scenes/Stuff/mop.tscn<>uid://cbfgkx00wqon::::res://Scenes/Stuff/rag.tscn<>uid://cuj1lveatdq5n::::res://props/random/table.png<>uid://d1d84hhikkv6c::::res://props/random/crate1.png<>uid://ctsrl8bt0p560::::res://props/random/crate2.png<>uid://fl02kdc5punv::::res://props/random/crate4.png<>uid://iqj72b545ip4::::res://props/random/crate3.png<>uid://lipgufao0khj::::res://ui_elements/ui_windows.png<>uid://bbpv51tbxl6nf::::res://animations/tools/Door and anim/F0.png<>uid://bsb285tbh84gi::::res://props/ragged_bed.png<>uid://dlc37mx5ggd26::::res://animations/tools/Door and anim/F1.png<>uid://bv1j6vrljaale::::res://animations/tools/Door and anim/F2.png<>uid://b223g357d6wnd::::res://Scenes/Stuff/bucket.tscn<>uid://1e01iorlft1j::::res://animations/tools/Door and anim/F3.png<>uid://drda6jxnxnj1h::::res://animations/tools/Door and anim/F4.png<>uid://c6h2782ju23hc::::res://animations/tools/Door and anim/F5.png<>uid://bc2aa0heym2jm::::res://Scenes/UI/tip_arrow.tscn
+::res://Scenes/Menus/::1743791807
+::res://Scenes/Stuff/::1765390164
+broom.gd::GDScript::-1::1752005728::0::1::::<>Node2D<>::
+broom.tscn::PackedScene::4343936917407699977::1749671250::0::1::::<><>::uid://cqj6e5g543f2x::::res://props/Broom/F0.png<>res://Scenes/Stuff/broom.gd<>uid://cu0iey8f3owca::::res://sounds/sweep_sfx.wav
+bucket.gd::GDScript::-1::1765383740::0::1::::<>Sprite2D<>::
+bucket.tscn::PackedScene::4338969970297603133::1765219767::0::1::::<><>::res://Scenes/Stuff/bucket.gd<>uid://b16i4yuqb4cdk::::res://animations/tools/Bucket and splash anim/F0.png<>uid://uwgm4610aair::::res://animations/tools/Bucket and splash anim/F1.png<>uid://boocl8hejsctr::::res://animations/tools/Bucket and splash anim/F2.png<>uid://cowradly8k3ro::::res://animations/tools/Bucket and splash anim/F3.png<>uid://djrh7dye7tks3::::res://animations/tools/Bucket and splash anim/F4.png
+dust_spill.gd::GDScript::-1::1752006545::0::1::::<>Sprite2D<>::
+dust_spill.tscn::PackedScene::4058260905026630044::1749667812::0::1::::<><>::res://Scenes/Stuff/dust_spill.gd<>uid://3pypglqc3fe2::::res://animations/tools/Straw and dirt/F0.png<>uid://bdv18wgbbbuf1::::res://animations/tools/Straw and dirt/F1.png<>uid://bs1mgyy33xlxo::::res://animations/tools/Straw and dirt/F2.png<>uid://ciltvj7dxceq::::res://animations/tools/Straw and dirt/F3.png<>uid://dy4fwoo3objde::::res://animations/tools/Straw and dirt/F4.png
+mop.tscn::PackedScene::6050281194336662657::1765390164::0::1::::<><>::uid://bmgb8ksrjousf::::res://props/mop_dry.png<>uid://dwadmu1t6eusl::::res://props/mop_wet.png<>uid://bnprmgkobo5gk::::res://sounds/mop_sfx.wav
+rag.gd::GDScript::-1::1765383550::0::1::::<>Sprite2D<>::
+rag.tscn::PackedScene::142756926691566921::1765390164::0::1::::<><>::uid://de8foa6p01jc3::::res://props/Rag dry 2 ways/F0.png<>res://Scenes/Stuff/rag.gd<>uid://c61wrnhvujswn::::res://props/Rag dry 2 ways/F1.png<>uid://ctukonv25ddu::::res://sounds/rag_sfx.wav<>uid://csgxfeuag24b::::res://props/Rag rag wet 2 ways/F0.png<>uid://cldu5yurexsh4::::res://props/Rag rag wet 2 ways/F1.png
+spray_mess.gd::GDScript::-1::1752006619::0::1::::<>Sprite2D<>::
+spray_mess.tscn::PackedScene::6217508980342118381::1749671250::0::1::::<><>::res://Scenes/Stuff/spray_mess.gd<>uid://bqnmgqxb2omxf::::res://animations/tools/Blood splatter and anim/F0.png<>uid://ctukonv25ddu::::res://sounds/rag_sfx.wav<>uid://bw7k1l3hfyig::::res://animations/tools/Blood splatter and anim/F1.png<>uid://b25wdmajibobw::::res://animations/tools/Blood splatter and anim/F2.png<>uid://c8f8jl2mvlihe::::res://animations/tools/Blood splatter and anim/F3.png<>uid://ej37u22vfa7r::::res://animations/tools/Blood splatter and anim/F4.png
+torch.gd::GDScript::-1::1730247376::0::1::::<>AnimatedSprite2D<>::
+torch.tscn::PackedScene::2672254171229875015::1743792655::0::1::::<><>::uid://uc0ijm3yb408::::res://props/torch1.png<>uid://bukmr4r1bd1yh::::res://props/torch2.png<>uid://cki4ufcfu81qb::::res://props/torch3.png<>res://Scenes/Stuff/torch.gd
+torch_light.tscn::PackedScene::5353491593376559081::1765390164::0::1::::<><>::
+water_spill1.gd::GDScript::-1::1739926619::0::1::::<>Sprite2D<>::
+water_spill1.tscn::PackedScene::2214696448641661965::1749671250::0::1::::<><>::res://Scenes/Stuff/water_spill.gd<>uid://kkd7oq8iuggm::::res://animations/tools/Water and cleanup anim/F0.png<>uid://bnprmgkobo5gk::::res://sounds/mop_sfx.wav<>uid://basxrgppbsckm::::res://animations/tools/Water and cleanup anim/F1.png<>uid://brgkgyqi5ql2p::::res://animations/tools/Water and cleanup anim/F2.png<>uid://cghwgdivn4vaq::::res://animations/tools/Water and cleanup anim/F3.png<>uid://5o8qvvdifjku::::res://animations/tools/Water and cleanup anim/F4.png
+water_spill.gd::GDScript::-1::1765389967::0::1::::<>Sprite2D<>::
+water_spill.tscn::PackedScene::7326810091337912477::1765390164::0::1::::<><>::res://Scenes/Stuff/water_spill.gd<>uid://bnprmgkobo5gk::::res://sounds/mop_sfx.wav<>uid://kkd7oq8iuggm::::res://animations/tools/Water and cleanup anim/F0.png<>uid://basxrgppbsckm::::res://animations/tools/Water and cleanup anim/F1.png<>uid://brgkgyqi5ql2p::::res://animations/tools/Water and cleanup anim/F2.png<>uid://cghwgdivn4vaq::::res://animations/tools/Water and cleanup anim/F3.png<>uid://5o8qvvdifjku::::res://animations/tools/Water and cleanup anim/F4.png
+::res://Scenes/UI/::1765390164
+dialogue_box.gd::GDScript::-1::1765385472::0::1::::<>CanvasLayer<>::
+dialogue_box.tscn::PackedScene::7212988361595511510::1765390164::0::1::::<><>::res://Scenes/UI/dialogue_box.gd<>uid://lipgufao0khj::::res://ui_elements/ui_windows.png<>uid://ourxkbf5g1l7::::res://animations/other/Character dialogue screen/F0.png<>uid://t3mvo2lltjrl::::res://animations/other/Character dialogue screen/F1.png<>uid://cqjp5pbilan2s::::res://animations/other/Character dialogue screen/F2.png<>uid://bhgiglf3wj4wj::::res://animations/other/Character dialogue screen/F3.png<>uid://bt56ybl20n882::::res://animations/other/Character dialogue screen/F4.png<>uid://bim8su1qppbo8::::res://animations/other/Character dialogue screen/F5.png<>uid://dlxg1avc7no0w::::res://animations/other/Character dialogue screen/F6.png<>uid://blvpb8f81711k::::res://animations/other/Vampire dialogue screen/F0.png<>uid://b1ic5dok7pujr::::res://ui_elements/checkmark.png<>uid://cxchvtb1dxfix::::res://characters/Misc/blank_char.png<>uid://b4o43m83p36hv::::res://animations/other/Vampire dialogue screen/F1.png<>uid://c0blcds2vfmbh::::res://animations/other/Vampire dialogue screen/F2.png<>uid://dhd3jdus4bqk1::::res://animations/other/Vampire dialogue screen/F3.png<>uid://b2yd40vtkf0st::::res://animations/other/Vampire dialogue screen/F4.png<>uid://d0r6jdbq3occp::::res://animations/other/Vampire dialogue screen/F5.png<>uid://b50ajjoc3idj0::::res://animations/other/Vampire dialogue screen/F6.png
+dialogue_bubble.gd::GDScript::-1::1747769112::0::1::::<>Control<>::
+dialogue_bubble.tscn::PackedScene::5074983996073272608::1759273522::0::1::::<><>::res://Scenes/UI/dialogue_bubble.gd<>uid://o6m17eiw7rqx::::res://ui_elements/dialogue_bubble.png
+score_popup.gd::GDScript::-1::1765142689::0::1::::<>Node2D<>::
+score_popup.tscn::PackedScene::3615151253824154128::1746822116::0::1::::<><>::res://Scenes/UI/score_popup.gd<>uid://bcq2fn5tcbxgi::::res://ui_elements/score/100.png
+tip_arrow.gd::GDScript::-1::1765214995::0::1::::<>Control<>::
+tip_arrow.tscn::PackedScene::2582537894440481226::1765217804::0::1::::<><>::res://Scenes/UI/tip_arrow.gd<>uid://cie0ql2vd4qex::::res://ui_elements/tip_arrow1.png<>uid://dqd406j61ip5s::::res://ui_elements/tip_arrow2.png<>uid://cn6s84uj3p46p::::res://ui_elements/tip_arrow3.png
+welcome_popup.gd::GDScript::-1::1760419201::0::1::::<>Control<>::
+welcome_popup.tscn::PackedScene::7796683490311661815::1765390164::0::1::::<><>::res://Scenes/UI/welcome_popup.gd<>uid://lipgufao0khj::::res://ui_elements/ui_windows.png
+::res://Scripts/::1760042276
+game_state.gd::GDScript::-1::1760042276::0::1::::<>Node<>::
+::res://sounds/::1743790390
+Broom sfx .wav::AudioStreamWAV::9190085117627677026::1740952809::1743790390::1::::<><>::
+mop_sfx.wav::AudioStreamWAV::3330895266928469774::1743695168::1743695170::1::::<><>::
+Rag sfx.wav::AudioStreamWAV::2586569871190602569::1740952856::1743790390::1::::<><>::
+rag_sfx.wav::AudioStreamWAV::180833818798345862::1743695542::1743695544::1::::<><>::
+Spray sfx.wav::AudioStreamWAV::7939258134617098764::1740952770::1743790389::1::::<><>::
+sweep_sfx.wav::AudioStreamWAV::6228721874920214956::1743695434::1743695436::1::::<><>::
+::res://ui_elements/::1765385467
+checkmark.png::CompressedTexture2D::4228020827812143307::1765385461::1765385467::1::::<><>::
+dialogue_bubble.png::CompressedTexture2D::1047416243183614299::1747165590::1747165608::1::::<><>::
+tip_arrow1.png::CompressedTexture2D::5344156745454222423::1765211746::1765211753::1::::<><>::
+tip_arrow2.png::CompressedTexture2D::8290283763758520394::1765211746::1765211753::1::::<><>::
+tip_arrow3.png::CompressedTexture2D::5750445436645336953::1765211746::1765211753::1::::<><>::
+ui_windows.png::CompressedTexture2D::789514829916488839::1739990160::1744085441::1::::<><>::
+::res://ui_elements/score/::1744086028
+100.png::CompressedTexture2D::2561477432822037432::1744086021::1744086028::1::::<><>::

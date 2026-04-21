@@ -1,0 +1,91 @@
+[gd_scene load_steps=9 format=3 uid="uid://bx2371uncf1vc"]
+
+[ext_resource type="Script" path="res://Scenes/Stuff/dust_spill.gd" id="1_3qau4"]
+[ext_resource type="Texture2D" uid="uid://3pypglqc3fe2" path="res://animations/tools/Straw and dirt/F0.png" id="2_onxcw"]
+[ext_resource type="Texture2D" uid="uid://bdv18wgbbbuf1" path="res://animations/tools/Straw and dirt/F1.png" id="3_kk1ub"]
+[ext_resource type="Texture2D" uid="uid://bs1mgyy33xlxo" path="res://animations/tools/Straw and dirt/F2.png" id="4_fwbtf"]
+[ext_resource type="Texture2D" uid="uid://ciltvj7dxceq" path="res://animations/tools/Straw and dirt/F3.png" id="5_kyp72"]
+[ext_resource type="Texture2D" uid="uid://dy4fwoo3objde" path="res://animations/tools/Straw and dirt/F4.png" id="6_lkn14"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hja6e"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_onxcw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_kk1ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fwbtf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_kyp72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_lkn14")
+}],
+"loop": false,
+"name": &"dust_clean_up",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_licrn"]
+size = Vector2(8.4, 7.6)
+
+[node name="DustSpill" type="Sprite2D"]
+z_index = -1
+scale = Vector2(5, 5)
+script = ExtResource("1_3qau4")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_hja6e")
+animation = &"dust_clean_up"
+
+[node name="InstructionLabel" type="Label" parent="."]
+visible = false
+modulate = Color(0.745098, 0, 0.156863, 1)
+z_index = 5
+offset_left = -50.0
+offset_top = -30.0
+offset_right = 247.0
+offset_bottom = -7.0
+scale = Vector2(0.4, 0.4)
+theme_override_colors/font_color = Color(0.745098, 0, 0.156863, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+text = "Tap \"q\" rapidly to sweep"
+
+[node name="ProgressLabelDust" type="Label" parent="."]
+unique_name_in_owner = true
+z_index = 5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 3.0
+scale = Vector2(0.4, 0.4)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+unique_name_in_owner = true
+visible = false
+anchors_preset = -1
+anchor_top = -0.173
+anchor_right = 1.0
+offset_left = -1.2
+offset_top = -21.432
+offset_right = -13.2
+offset_bottom = 2.8
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1.90735e-07, 5.72204e-07)
+shape = SubResource("RectangleShape2D_licrn")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

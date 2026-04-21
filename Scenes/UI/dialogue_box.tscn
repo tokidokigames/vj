@@ -1,0 +1,170 @@
+[gd_scene load_steps=20 format=3 uid="uid://da1a4nlyaoj1o"]
+
+[ext_resource type="Script" path="res://Scenes/UI/dialogue_box.gd" id="1_1rsy1"]
+[ext_resource type="Texture2D" uid="uid://lipgufao0khj" path="res://ui_elements/ui_windows.png" id="1_03xt5"]
+[ext_resource type="Texture2D" uid="uid://ourxkbf5g1l7" path="res://animations/other/Character dialogue screen/F0.png" id="3_v8tbd"]
+[ext_resource type="Texture2D" uid="uid://t3mvo2lltjrl" path="res://animations/other/Character dialogue screen/F1.png" id="4_tkuuw"]
+[ext_resource type="Texture2D" uid="uid://cqjp5pbilan2s" path="res://animations/other/Character dialogue screen/F2.png" id="5_rwxv8"]
+[ext_resource type="Texture2D" uid="uid://bhgiglf3wj4wj" path="res://animations/other/Character dialogue screen/F3.png" id="6_a5yvq"]
+[ext_resource type="Texture2D" uid="uid://bt56ybl20n882" path="res://animations/other/Character dialogue screen/F4.png" id="7_he27j"]
+[ext_resource type="Texture2D" uid="uid://bim8su1qppbo8" path="res://animations/other/Character dialogue screen/F5.png" id="8_wdr3c"]
+[ext_resource type="Texture2D" uid="uid://dlxg1avc7no0w" path="res://animations/other/Character dialogue screen/F6.png" id="9_3ph76"]
+[ext_resource type="Texture2D" uid="uid://blvpb8f81711k" path="res://animations/other/Vampire dialogue screen/F0.png" id="10_c3e2k"]
+[ext_resource type="Texture2D" uid="uid://b1ic5dok7pujr" path="res://ui_elements/checkmark.png" id="10_sc8qu"]
+[ext_resource type="Texture2D" uid="uid://cxchvtb1dxfix" path="res://characters/Misc/blank_char.png" id="11_fy63q"]
+[ext_resource type="Texture2D" uid="uid://b4o43m83p36hv" path="res://animations/other/Vampire dialogue screen/F1.png" id="11_svkqq"]
+[ext_resource type="Texture2D" uid="uid://c0blcds2vfmbh" path="res://animations/other/Vampire dialogue screen/F2.png" id="12_t08mf"]
+[ext_resource type="Texture2D" uid="uid://dhd3jdus4bqk1" path="res://animations/other/Vampire dialogue screen/F3.png" id="13_4b3xg"]
+[ext_resource type="Texture2D" uid="uid://b2yd40vtkf0st" path="res://animations/other/Vampire dialogue screen/F4.png" id="14_aw18h"]
+[ext_resource type="Texture2D" uid="uid://d0r6jdbq3occp" path="res://animations/other/Vampire dialogue screen/F5.png" id="15_7yv8g"]
+[ext_resource type="Texture2D" uid="uid://b50ajjoc3idj0" path="res://animations/other/Vampire dialogue screen/F6.png" id="16_gjnob"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6f78g"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_v8tbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_tkuuw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_rwxv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_a5yvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_he27j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_wdr3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_3ph76")
+}],
+"loop": true,
+"name": &"player_talking",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_sc8qu")
+}],
+"loop": true,
+"name": &"tip_checkmark",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_fy63q")
+}],
+"loop": true,
+"name": &"unknown",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_c3e2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_svkqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_t08mf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_4b3xg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_aw18h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_7yv8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_gjnob")
+}],
+"loop": true,
+"name": &"vampire1_talking",
+"speed": 5.0
+}]
+
+[node name="DialogueBox" type="CanvasLayer"]
+layer = 100
+script = ExtResource("1_1rsy1")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_left = -474.0
+offset_top = -366.0
+offset_right = -274.0
+offset_bottom = -304.0
+scale = Vector2(5, 5)
+texture = ExtResource("1_03xt5")
+expand_mode = 1
+
+[node name="Text" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = -239.0
+offset_top = -267.0
+offset_right = -18.0
+offset_bottom = -244.0
+scale = Vector2(3, 3)
+theme_override_constants/outline_size = 2
+theme_override_constants/shadow_outline_size = 1
+theme_override_font_sizes/font_size = 11
+text = "Use the W, A, S, D keys to move."
+autowrap_mode = 2
+
+[node name="Title" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = -388.0
+offset_top = -302.0
+offset_right = -167.0
+offset_bottom = -279.0
+scale = Vector2(3, 3)
+theme_override_constants/outline_size = 2
+theme_override_constants/shadow_outline_size = 1
+theme_override_font_sizes/font_size = 11
+text = "Tip..."
+
+[node name="CloseButton" type="Button" parent="Control"]
+top_level = true
+z_index = 11
+layout_mode = 0
+offset_left = 1326.0
+offset_top = 745.0
+offset_right = 1378.0
+offset_bottom = 776.0
+text = "X"
+
+[node name="Portrait" type="AnimatedSprite2D" parent="Control"]
+position = Vector2(-331, -184)
+sprite_frames = SubResource("SpriteFrames_6f78g")
+animation = &"tip_checkmark"
+
+[node name="Instruction" type="Label" parent="Control"]
+visible = false
+layout_mode = 0
+offset_left = -64.0
+offset_top = -138.0
+offset_right = 123.0
+offset_bottom = -115.0
+theme_override_colors/font_color = Color(0.554954, 0.554954, 0.554954, 1)
+text = "Press SPACE to continue"
+
+[connection signal="pressed" from="Control/CloseButton" to="." method="_on_close_button_pressed"]

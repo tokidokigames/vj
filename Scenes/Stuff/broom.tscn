@@ -1,0 +1,77 @@
+[gd_scene load_steps=10 format=3 uid="uid://b25iahmp52lf2"]
+
+[ext_resource type="Texture2D" uid="uid://cqj6e5g543f2x" path="res://props/Broom/F0.png" id="2_nslbf"]
+[ext_resource type="Script" path="res://Scenes/Stuff/broom.gd" id="2_qlbt5"]
+[ext_resource type="AudioStream" uid="uid://cu0iey8f3owca" path="res://sounds/sweep_sfx.wav" id="6_hqrow"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_w2pwx"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6t5r3"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nuyqh"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ge345"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uh0k7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_nslbf")
+}],
+"loop": true,
+"name": &"idle_broom",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_w2pwx")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_6t5r3")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_nuyqh")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_ge345")
+}],
+"loop": true,
+"name": &"sweeping",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4f5vy"]
+size = Vector2(6, 16)
+
+[node name="Broom" type="Sprite2D"]
+scale = Vector2(5, 5)
+script = ExtResource("2_qlbt5")
+
+[node name="InstructionLabel" type="Label" parent="."]
+visible = false
+z_index = 5
+offset_left = -50.0
+offset_top = -30.0
+offset_right = 247.0
+offset_bottom = -7.0
+scale = Vector2(0.4, 0.4)
+theme_override_colors/font_color = Color(0.784314, 0.588235, 0.156863, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+text = "Press \"e\" to pick up and drop tools"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_uh0k7")
+animation = &"idle_broom"
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_4f5vy")
+
+[node name="SweepSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_hqrow")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

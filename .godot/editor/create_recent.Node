@@ -1,0 +1,14 @@
+AnimatedSprite2D
+CanvasLayer
+Label
+Sprite2D
+Control
+Camera2D
+CanvasModulate
+AnimationPlayer
+CollisionShape2D
+CharacterBody2D
+TextureRect
+ColorRect
+Area2D
+StaticBody2D

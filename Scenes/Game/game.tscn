@@ -1,0 +1,121 @@
+[gd_scene load_steps=6 format=3 uid="uid://ddhluyssh1wbp"]
+
+[ext_resource type="Script" path="res://Scenes/Game/game.gd" id="1_5db7q"]
+[ext_resource type="PackedScene" uid="uid://c2w4r655a0nv0" path="res://Scenes/Levels/level_0.tscn" id="2_nae62"]
+
+[sub_resource type="Animation" id="Animation_3h4cm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_lk1qk"]
+resource_name = "fade_out"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3txgk"]
+_data = {
+"RESET": SubResource("Animation_3h4cm"),
+"fade_out": SubResource("Animation_lk1qk")
+}
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_5db7q")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="ScoreLabel" type="Label" parent="UI"]
+unique_name_in_owner = true
+visible = false
+offset_left = 119.0
+offset_top = -2.0
+offset_right = 496.0
+offset_bottom = 135.0
+theme_override_font_sizes/font_size = 100
+text = "Score: 0"
+
+[node name="GameOverLabel" type="Label" parent="UI"]
+unique_name_in_owner = true
+visible = false
+offset_left = 381.0
+offset_top = 371.0
+offset_right = 1651.0
+offset_bottom = 780.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 25
+theme_override_font_sizes/font_size = 300
+text = "You Win!"
+
+[node name="TimerLabel" type="Label" parent="UI"]
+unique_name_in_owner = true
+visible = false
+offset_left = 791.0
+offset_top = 3.0
+offset_right = 831.0
+offset_bottom = 140.0
+theme_override_font_sizes/font_size = 100
+
+[node name="LevelContainer" type="Node2D" parent="."]
+
+[node name="Level0" parent="LevelContainer" instance=ExtResource("2_nae62")]
+
+[node name="FadeLayer" type="ColorRect" parent="."]
+visible = false
+z_index = 2
+offset_right = 1977.0
+offset_bottom = 1112.0
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="FadeLayer"]
+libraries = {
+"": SubResource("AnimationLibrary_3txgk")
+}

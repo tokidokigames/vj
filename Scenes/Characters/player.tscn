@@ -1,0 +1,1409 @@
+[gd_scene load_steps=249 format=3 uid="uid://bvlcoyjfekddd"]
+
+[ext_resource type="Script" path="res://Scenes/Characters/player.gd" id="1_w4msa"]
+[ext_resource type="Texture2D" uid="uid://b281xqf4gaiyg" path="res://characters/Player/F1.png" id="2_p4bcn"]
+[ext_resource type="Texture2D" uid="uid://cr1x0e2uss0s2" path="res://characters/Player/F0.png" id="2_xp3xk"]
+[ext_resource type="Texture2D" uid="uid://b7mdpec8vk0mx" path="res://animations/tools/broom_animation_front/F0.png" id="3_eg8sp"]
+[ext_resource type="Texture2D" uid="uid://d1r160wyiegbl" path="res://characters/Player/F2.png" id="4_hqqyu"]
+[ext_resource type="Texture2D" uid="uid://i7lm4u8vdyow" path="res://animations/tools/Mop animation Front/F0.png" id="4_s7ccs"]
+[ext_resource type="Texture2D" uid="uid://bm2xjmijfke5y" path="res://animations/tools/Mop animation Front/F1.png" id="5_d4cda"]
+[ext_resource type="Texture2D" uid="uid://dwos52mpu6tsg" path="res://characters/Player/F3.png" id="5_wq7bh"]
+[ext_resource type="Texture2D" uid="uid://15plyu5xadrs" path="res://animations/tools/Mop animation Front/F2.png" id="6_2r7cu"]
+[ext_resource type="Texture2D" uid="uid://by1eumppnxs13" path="res://animations/movement/Bucket/Bucket and splash anim walk front/F0.png" id="6_6h3ue"]
+[ext_resource type="Texture2D" uid="uid://cn4nmc8gooecs" path="res://animations/tools/broom_animation_front/F1.png" id="6_46kj7"]
+[ext_resource type="Texture2D" uid="uid://b4ol07p63j1cf" path="res://animations/tools/Character vj walk dry mop anim - front/F0.png" id="7_eu4o1"]
+[ext_resource type="Texture2D" uid="uid://cnk1ymw0be5nr" path="res://animations/movement/Bucket/Bucket and splash anim walk left/F0.png" id="7_evi2b"]
+[ext_resource type="Texture2D" uid="uid://bjcbot0pkmw04" path="res://animations/tools/broom_animation_front/F2.png" id="7_jrkck"]
+[ext_resource type="Texture2D" uid="uid://bsw118nldjno6" path="res://animations/tools/Mop animation Front/F3.png" id="7_lcwc1"]
+[ext_resource type="Texture2D" uid="uid://ekedyr6yiib2" path="res://animations/tools/broom_animation_front/F3.png" id="8_2efpt"]
+[ext_resource type="Texture2D" uid="uid://btaq1eu3jfwx1" path="res://animations/tools/Dry rag walking anim/Front/F0.png" id="8_a0kle"]
+[ext_resource type="Texture2D" uid="uid://1r5prm1e5scp" path="res://animations/movement/Bucket/Bucket and splash anim walk right/F0.png" id="8_rvjdv"]
+[ext_resource type="Texture2D" uid="uid://btnm4aiguf7cv" path="res://animations/tools/Mop animation left/F0.png" id="8_t2o3s"]
+[ext_resource type="Texture2D" uid="uid://dl7p01eyerng4" path="res://animations/movement/Bucket/Bucket and splash anim walk back/F0.png" id="9_7wr6f"]
+[ext_resource type="Texture2D" uid="uid://c2ye8u2yvrnoh" path="res://animations/tools/Mop animation left/F1.png" id="9_2736u"]
+[ext_resource type="Texture2D" uid="uid://jbpvlw2x1c2g" path="res://animations/tools/broom_animation_left/F0.png" id="9_cdib0"]
+[ext_resource type="Texture2D" uid="uid://cry4dh1qed1qu" path="res://animations/tools/broom_animation_left/F1.png" id="10_1i6u6"]
+[ext_resource type="Texture2D" uid="uid://cgx4m5p5l6jo3" path="res://animations/tools/Mop animation left/F2.png" id="10_tttcr"]
+[ext_resource type="Texture2D" uid="uid://cmptsi8pfe55h" path="res://animations/tools/Mop animation left/F3.png" id="11_0eyr8"]
+[ext_resource type="Texture2D" uid="uid://cg8hc3qs2lyae" path="res://animations/tools/broom_animation_left/F2.png" id="11_eiosm"]
+[ext_resource type="Texture2D" uid="uid://dvc2kj5g8lugg" path="res://animations/tools/Character vj walk dry mop anim - left/F0.png" id="11_yc6k0"]
+[ext_resource type="Texture2D" uid="uid://dybboymkafbov" path="res://animations/tools/Mop animation right /F0.png" id="12_5no4t"]
+[ext_resource type="Texture2D" uid="uid://ca82qjjgxkpir" path="res://animations/tools/broom_animation_left/F3.png" id="12_q6c63"]
+[ext_resource type="Texture2D" uid="uid://be2lhbt32iyff" path="res://animations/tools/Character vj walk dry mop anim - right/F0.png" id="12_v334d"]
+[ext_resource type="Texture2D" uid="uid://dac5nrchy32ln" path="res://animations/tools/Mop animation right /F1.png" id="13_408gw"]
+[ext_resource type="Texture2D" uid="uid://pisvr3xu2fl0" path="res://animations/tools/Character vj walk dry mop anim - back/F0.png" id="13_i1pdu"]
+[ext_resource type="Texture2D" uid="uid://dlutvinm8h5ga" path="res://animations/tools/broom_animation_right/F0.png" id="13_tn344"]
+[ext_resource type="Texture2D" uid="uid://cwjnkpmccsibx" path="res://animations/tools/Mop animation right /F2.png" id="14_g154b"]
+[ext_resource type="Texture2D" uid="uid://dohdvthuqnlww" path="res://animations/tools/broom_animation_right/F1.png" id="14_hdogx"]
+[ext_resource type="Texture2D" uid="uid://b7jx5bg2kryk4" path="res://animations/tools/broom_animation_right/F2.png" id="15_3i0wf"]
+[ext_resource type="Texture2D" uid="uid://0ms712pa5a73" path="res://animations/tools/Character vj walk dry rag anim - left/F0.png" id="15_20ouh"]
+[ext_resource type="Texture2D" uid="uid://c1xms2o1kt3jq" path="res://animations/tools/Mop animation right /F3.png" id="15_r8lhl"]
+[ext_resource type="Texture2D" uid="uid://lmqsgjmawj6d" path="res://animations/tools/Mop animation back/F0.png" id="16_1mxy5"]
+[ext_resource type="Texture2D" uid="uid://c6mbcvfqqa6mr" path="res://animations/tools/Character vj walk dry rag anim - right/F0.png" id="16_brpj2"]
+[ext_resource type="Texture2D" uid="uid://ddftgx1yfi4qm" path="res://animations/tools/broom_animation_right/F3.png" id="16_ulexb"]
+[ext_resource type="Texture2D" uid="uid://bp4vlrrxgy307" path="res://animations/tools/Mop animation back/F1.png" id="17_0b50h"]
+[ext_resource type="Texture2D" uid="uid://864rq8vyx0b8" path="res://animations/tools/broom_animation_back/F0.png" id="17_coxlo"]
+[ext_resource type="Texture2D" uid="uid://be8gruhcww8hi" path="res://animations/tools/Character vj walk dry rag anim - back/F0.png" id="17_hvdq0"]
+[ext_resource type="Texture2D" uid="uid://bxr1u32jjdwsy" path="res://animations/tools/Mop animation back/F2.png" id="18_ci2hj"]
+[ext_resource type="Texture2D" uid="uid://us6qekc6iosa" path="res://animations/tools/broom_animation_back/F1.png" id="18_p1x26"]
+[ext_resource type="Texture2D" uid="uid://bcxrqfly5kiux" path="res://animations/tools/Mop animation back/F3.png" id="19_3emtv"]
+[ext_resource type="Texture2D" uid="uid://hv1ldoyvi1i1" path="res://animations/tools/broom_animation_back/F2.png" id="19_e4164"]
+[ext_resource type="Texture2D" uid="uid://bcqty18yaddeh" path="res://animations/tools/Character vj walk wet mop anim - front/F0.png" id="19_ymplc"]
+[ext_resource type="Texture2D" uid="uid://bpq7l7q8fmh8y" path="res://animations/tools/broom_animation_back/F3.png" id="20_apwhr"]
+[ext_resource type="Texture2D" uid="uid://cpcsx7nq8dg0r" path="res://animations/tools/Character vj walk wet mop anim - left/F0.png" id="20_pb3y6"]
+[ext_resource type="Texture2D" uid="uid://x6any12j5rpf" path="res://animations/tools/Rag animation Front/F0.png" id="20_rnrrk"]
+[ext_resource type="Texture2D" uid="uid://ca60nwe61mpb2" path="res://animations/tools/Character vj walk wet mop anim - right/F0.png" id="21_c5k3y"]
+[ext_resource type="Texture2D" uid="uid://cfjeuiakdjq76" path="res://animations/tools/Rag animation Front/F1.png" id="21_nry47"]
+[ext_resource type="Texture2D" uid="uid://c12n4u46mk3os" path="res://animations/tools/Character vj walk wet mop anim - back/F0.png" id="22_ot17s"]
+[ext_resource type="Texture2D" uid="uid://t1icsei7qe7s" path="res://animations/tools/Rag animation Front/F2.png" id="22_pqfnf"]
+[ext_resource type="Texture2D" uid="uid://cae10luuncwrb" path="res://animations/tools/Character vj walk wet rag anim - front/F0.png" id="23_goai5"]
+[ext_resource type="Texture2D" uid="uid://dcac2q5xnq7tf" path="res://animations/tools/Rag animation Front/F3.png" id="23_lejro"]
+[ext_resource type="Texture2D" uid="uid://c8ckjq5q2nma6" path="res://animations/movement/Character vj walk anim left/F1.png" id="23_pxskk"]
+[ext_resource type="Texture2D" uid="uid://vt1lapmhnov3" path="res://animations/tools/Rag animation left/F0.png" id="24_3hlfj"]
+[ext_resource type="Texture2D" uid="uid://d32wvy67mr7pc" path="res://animations/tools/Character vj walk wet rag anim - left/F0.png" id="24_s5do5"]
+[ext_resource type="Texture2D" uid="uid://5rexwn3n7lxh" path="res://animations/movement/Character vj walk anim left/F2.png" id="24_tgtfn"]
+[ext_resource type="Texture2D" uid="uid://mnvvdo0l34dr" path="res://animations/movement/Character vj walk anim front/F2.png" id="24_vbh3q"]
+[ext_resource type="Texture2D" uid="uid://daarvfp6n7lv5" path="res://animations/tools/Rag animation left/F1.png" id="25_a8064"]
+[ext_resource type="Texture2D" uid="uid://0q63kw7ns7v2" path="res://animations/movement/Character vj walk anim left/F3.png" id="25_j2s5g"]
+[ext_resource type="Texture2D" uid="uid://b8i2jdb7sehv6" path="res://animations/tools/Character vj walk wet rag anim - right/F0.png" id="25_sbmyq"]
+[ext_resource type="Texture2D" uid="uid://2k26q8gvllks" path="res://animations/movement/Character vj walk anim front/F3.png" id="25_vm657"]
+[ext_resource type="Texture2D" uid="uid://iy5hwuptpy8h" path="res://animations/tools/Character vj walk wet rag anim - back/F0.png" id="26_0ai5a"]
+[ext_resource type="Texture2D" uid="uid://bqox1qhx6ptjc" path="res://animations/movement/Character vj walk anim front/F4.png" id="26_3hbv0"]
+[ext_resource type="Texture2D" uid="uid://d10df5i6sihj2" path="res://animations/movement/Character vj walk anim left/F4.png" id="26_jg2ag"]
+[ext_resource type="Texture2D" uid="uid://dyi05u4omitha" path="res://animations/tools/Rag animation left/F2.png" id="26_ss6bw"]
+[ext_resource type="Texture2D" uid="uid://ngnt2ciwpxe3" path="res://animations/tools/Rag animation left/F3.png" id="27_lxpu8"]
+[ext_resource type="Texture2D" uid="uid://dxyq6qtkjsc70" path="res://animations/movement/Character vj walk anim left/F5.png" id="27_qrjgt"]
+[ext_resource type="Texture2D" uid="uid://ckajtb3lsh1ed" path="res://animations/movement/Character vj walk anim front/F5.png" id="27_yy5td"]
+[ext_resource type="Texture2D" uid="uid://mdbqymcnfgqe" path="res://animations/movement/Character vj walk anim front/F6.png" id="28_crip0"]
+[ext_resource type="Texture2D" uid="uid://d2mr47svay3gq" path="res://animations/movement/Character vj walk anim left/F6.png" id="28_wf7ge"]
+[ext_resource type="Texture2D" uid="uid://fcdags4kn0do" path="res://animations/tools/Rag animation right/F0.png" id="28_xsemw"]
+[ext_resource type="Texture2D" uid="uid://5h7knadfy7hx" path="res://animations/tools/Rag animation right/F1.png" id="29_ealco"]
+[ext_resource type="Texture2D" uid="uid://xmdd24he3p7" path="res://animations/movement/Character vj walk anim front/F7.png" id="29_fxt5a"]
+[ext_resource type="Texture2D" uid="uid://buwlfnseyxh43" path="res://animations/movement/Character vj walk anim left/F7.png" id="29_giqwu"]
+[ext_resource type="Texture2D" uid="uid://dh56jxdljn4r" path="res://animations/movement/Character vj walk anim right/F1.png" id="30_g31r6"]
+[ext_resource type="Texture2D" uid="uid://gl7etvy0qd1i" path="res://animations/tools/Rag animation right/F2.png" id="30_j30gq"]
+[ext_resource type="Texture2D" uid="uid://cwici772p3um3" path="res://animations/movement/Character vj walk anim right/F2.png" id="31_2maa1"]
+[ext_resource type="Texture2D" uid="uid://or48e38wli0q" path="res://animations/tools/Rag animation right/F3.png" id="31_gwbm0"]
+[ext_resource type="Texture2D" uid="uid://ckweo6vgo3jlu" path="res://animations/movement/Character vj walk anim right/F3.png" id="32_ivwhc"]
+[ext_resource type="Texture2D" uid="uid://4ey2l213wlip" path="res://animations/movement/Character vj walk anim right/F4.png" id="33_w568n"]
+[ext_resource type="Texture2D" uid="uid://dvkxs1vm1yasy" path="res://animations/movement/Character vj walk anim right/F5.png" id="34_ghkop"]
+[ext_resource type="Texture2D" uid="uid://dmcdkwo7vked8" path="res://animations/tools/Rag animation back/F0.png" id="34_q5l0d"]
+[ext_resource type="Texture2D" uid="uid://djs8mut8hy35l" path="res://animations/movement/Character vj walk anim right/F6.png" id="35_74g1t"]
+[ext_resource type="Texture2D" uid="uid://b8lxuxqyegkq6" path="res://animations/tools/Rag animation back/F1.png" id="35_h8554"]
+[ext_resource type="Texture2D" uid="uid://dxl7vy2ul2njp" path="res://animations/movement/Character vj walk anim right/F7.png" id="36_iw6iy"]
+[ext_resource type="Texture2D" uid="uid://b5wgaelon0j08" path="res://animations/tools/Rag animation back/F2.png" id="36_o6tuf"]
+[ext_resource type="Texture2D" uid="uid://blnv6q5vahvmp" path="res://animations/tools/Rag animation back/F3.png" id="37_bjok4"]
+[ext_resource type="Texture2D" uid="uid://cqv1fjfj3cyoy" path="res://animations/movement/Character vj walk anim back/F2.png" id="42_s58un"]
+[ext_resource type="Texture2D" uid="uid://deq6gxwe0jm6r" path="res://animations/movement/Character vj walk anim back/F3.png" id="43_4r00g"]
+[ext_resource type="Texture2D" uid="uid://dcgqofje7uwgp" path="res://animations/movement/Character vj walk anim back/F4.png" id="44_qll82"]
+[ext_resource type="Texture2D" uid="uid://ckg0nb0c2wjd2" path="res://animations/movement/Character vj walk anim back/F5.png" id="45_1elr6"]
+[ext_resource type="Texture2D" uid="uid://bm370hnbav3xq" path="res://animations/movement/Character vj walk anim back/F6.png" id="46_50c0m"]
+[ext_resource type="Texture2D" uid="uid://c84bfkxkfd123" path="res://animations/movement/Character vj walk anim back/F7.png" id="47_qu3g7"]
+[ext_resource type="Texture2D" uid="uid://dyyis4cvbqplw" path="res://animations/tools/Character vj walk broom anim - front/F0.png" id="57_urqdh"]
+[ext_resource type="Texture2D" uid="uid://divcy4dp8mdqr" path="res://animations/tools/Character vj walk broom anim - front/F1.png" id="58_t3pkd"]
+[ext_resource type="Texture2D" uid="uid://rn6w8fm1rwj" path="res://animations/tools/Character vj walk broom anim - front/F2.png" id="59_jikka"]
+[ext_resource type="Texture2D" uid="uid://yvefca0iuwum" path="res://animations/tools/Character vj walk broom anim - front/F3.png" id="60_ndmat"]
+[ext_resource type="Texture2D" uid="uid://b0m5imrw10frw" path="res://animations/tools/Character vj walk broom anim - front/F4.png" id="61_e55ha"]
+[ext_resource type="Texture2D" uid="uid://cq0liy2ovjsbp" path="res://animations/tools/Character vj walk broom anim - front/F5.png" id="62_4vtjd"]
+[ext_resource type="Texture2D" uid="uid://bp2spyexqdqig" path="res://animations/tools/Character vj walk broom anim - front/F6.png" id="63_imbsy"]
+[ext_resource type="Texture2D" uid="uid://dpu17p4amok5o" path="res://animations/tools/Character vj walk broom anim - left/F0.png" id="65_qfulw"]
+[ext_resource type="Texture2D" uid="uid://c1e0t0epg0tle" path="res://animations/tools/Character vj walk broom anim - left/F1.png" id="66_cq6sb"]
+[ext_resource type="Texture2D" uid="uid://cfl2di25wuvbp" path="res://animations/tools/Character vj walk broom anim - left/F2.png" id="67_h3div"]
+[ext_resource type="Texture2D" uid="uid://cgm3v5g222cuk" path="res://animations/tools/Character vj walk broom anim - left/F3.png" id="68_v87mf"]
+[ext_resource type="Texture2D" uid="uid://bypr654lcqhgj" path="res://animations/tools/Character vj walk broom anim - left/F4.png" id="69_fiq7k"]
+[ext_resource type="Texture2D" uid="uid://bq4k0yle3sys5" path="res://animations/tools/Character vj walk broom anim - left/F5.png" id="70_ltbcr"]
+[ext_resource type="Texture2D" uid="uid://lj8sqwcnsae3" path="res://animations/tools/Character vj walk broom anim - left/F6.png" id="71_rm8i2"]
+[ext_resource type="Texture2D" uid="uid://bejmk4w3xwic3" path="res://animations/tools/Character vj walk broom anim - left/F7.png" id="72_00sqa"]
+[ext_resource type="Texture2D" uid="uid://ta8lbt3jrxyu" path="res://animations/tools/Character vj walk broom anim - right/F0.png" id="73_0li3u"]
+[ext_resource type="Texture2D" uid="uid://bfu0o2a12m65p" path="res://animations/tools/Character vj walk broom anim - right/F1.png" id="74_bqrn4"]
+[ext_resource type="Texture2D" uid="uid://bdxxof78latp5" path="res://animations/tools/Character vj walk broom anim - right/F2.png" id="75_wjyj2"]
+[ext_resource type="Texture2D" uid="uid://dry5i8acdape1" path="res://animations/tools/Character vj walk broom anim - right/F3.png" id="76_tx0rg"]
+[ext_resource type="Texture2D" uid="uid://dm7j6nxekwe2l" path="res://animations/tools/Character vj walk broom anim - right/F4.png" id="77_awpuk"]
+[ext_resource type="Texture2D" uid="uid://ggwqh25bvjky" path="res://animations/tools/Character vj walk broom anim - right/F5.png" id="78_61gyb"]
+[ext_resource type="Texture2D" uid="uid://cgil6xsrw1w6i" path="res://animations/tools/Character vj walk broom anim - right/F6.png" id="79_xwlnd"]
+[ext_resource type="Texture2D" uid="uid://bveryggqwgcqt" path="res://animations/tools/Character vj walk broom anim - right/F7.png" id="80_d2t68"]
+[ext_resource type="Texture2D" uid="uid://bc4nmlr5frppm" path="res://animations/tools/Character vj walk broom anim - back/F0.png" id="81_mb213"]
+[ext_resource type="Texture2D" uid="uid://ci5war2m8ql6g" path="res://animations/tools/Character vj walk broom anim - back/F1.png" id="82_t3eex"]
+[ext_resource type="Texture2D" uid="uid://b8dbmts2mu4qn" path="res://animations/tools/Character vj walk broom anim - back/F2.png" id="83_obpfc"]
+[ext_resource type="Texture2D" uid="uid://bb5yrj3m73gvp" path="res://animations/tools/Character vj walk broom anim - back/F3.png" id="84_oeqtv"]
+[ext_resource type="Texture2D" uid="uid://c0tfncx11ige3" path="res://animations/tools/Character vj walk broom anim - back/F4.png" id="85_ai652"]
+[ext_resource type="Texture2D" uid="uid://dcthcv4d02a8a" path="res://animations/tools/Character vj walk broom anim - back/F5.png" id="86_rfr4s"]
+[ext_resource type="Texture2D" uid="uid://bvjvkr6fyp7xp" path="res://animations/tools/Character vj walk broom anim - back/F6.png" id="87_ttb5l"]
+[ext_resource type="Texture2D" uid="uid://d0mxnrreo8nrj" path="res://animations/tools/Character vj walk dry mop anim - front/F1.png" id="96_1cafx"]
+[ext_resource type="Texture2D" uid="uid://cy1pdi2vuholn" path="res://animations/tools/Character vj walk dry mop anim - front/F2.png" id="97_t2ktr"]
+[ext_resource type="Texture2D" uid="uid://cwvyg6x5jobto" path="res://animations/tools/Character vj walk dry mop anim - front/F3.png" id="98_tr77p"]
+[ext_resource type="Texture2D" uid="uid://bb1u6dns2cwh4" path="res://animations/tools/Character vj walk dry mop anim - front/F4.png" id="99_ypvsi"]
+[ext_resource type="Texture2D" uid="uid://8lkbtdut75ih" path="res://animations/tools/Character vj walk dry mop anim - front/F5.png" id="100_8lgw8"]
+[ext_resource type="Texture2D" uid="uid://gw6xcnf50aj7" path="res://animations/tools/Character vj walk dry mop anim - front/F6.png" id="101_a3ps0"]
+[ext_resource type="Texture2D" uid="uid://dbipylh2kgtxd" path="res://animations/tools/Character vj walk dry mop anim - left/F1.png" id="102_se27g"]
+[ext_resource type="Texture2D" uid="uid://bdjccm5iwj3yx" path="res://animations/tools/Character vj walk dry mop anim - left/F2.png" id="103_6ftqy"]
+[ext_resource type="Texture2D" uid="uid://dgoe58cmh2mt3" path="res://animations/tools/Character vj walk dry mop anim - left/F3.png" id="104_5rmxd"]
+[ext_resource type="Texture2D" uid="uid://cw2j10iu1u5fm" path="res://animations/movement/Bucket/Bucket and splash anim walk front/F1.png" id="104_fk2gg"]
+[ext_resource type="Texture2D" uid="uid://bkq8li5tdd4qs" path="res://animations/movement/Bucket/Bucket and splash anim walk front/F2.png" id="105_5l0um"]
+[ext_resource type="Texture2D" uid="uid://cxuhd5lxc2b52" path="res://animations/tools/Character vj walk dry mop anim - left/F4.png" id="105_o6b8p"]
+[ext_resource type="Texture2D" uid="uid://tlr7iucuqnm1" path="res://animations/tools/Character vj walk dry mop anim - left/F5.png" id="106_kyacn"]
+[ext_resource type="Texture2D" uid="uid://b8v6knhugidcg" path="res://animations/movement/Bucket/Bucket and splash anim walk front/F3.png" id="106_yqcas"]
+[ext_resource type="Texture2D" uid="uid://c26ip1bneugy6" path="res://animations/movement/Bucket/Bucket and splash anim walk front/F4.png" id="107_ap8o3"]
+[ext_resource type="Texture2D" uid="uid://cgcw00x3jf7ws" path="res://animations/tools/Character vj walk dry mop anim - left/F6.png" id="107_hl17t"]
+[ext_resource type="Texture2D" uid="uid://m1nn1fhlx8hf" path="res://animations/tools/Character vj walk dry mop anim - left/F7.png" id="108_8pumi"]
+[ext_resource type="Texture2D" uid="uid://mncarl7yjh5d" path="res://animations/movement/Bucket/Bucket and splash anim walk left/F1.png" id="108_hkpvn"]
+[ext_resource type="Texture2D" uid="uid://hb32hhhjhrh7" path="res://animations/tools/Character vj walk dry mop anim - right/F1.png" id="109_t8426"]
+[ext_resource type="Texture2D" uid="uid://c28j85j2siiow" path="res://animations/movement/Bucket/Bucket and splash anim walk left/F2.png" id="109_yj8y3"]
+[ext_resource type="Texture2D" uid="uid://dsm6deikqext4" path="res://animations/tools/Character vj walk dry mop anim - right/F2.png" id="110_s2p10"]
+[ext_resource type="Texture2D" uid="uid://miiuuvsh4k2o" path="res://animations/movement/Bucket/Bucket and splash anim walk left/F3.png" id="110_yqkb1"]
+[ext_resource type="Texture2D" uid="uid://f3aal2dwuc1p" path="res://animations/movement/Bucket/Bucket and splash anim walk right/F1.png" id="111_ld7xv"]
+[ext_resource type="Texture2D" uid="uid://cesbo3junissg" path="res://animations/tools/Character vj walk dry mop anim - right/F3.png" id="111_ocwl6"]
+[ext_resource type="Texture2D" uid="uid://vfo4umb3nkhc" path="res://animations/movement/Bucket/Bucket and splash anim walk right/F2.png" id="112_f3hx2"]
+[ext_resource type="Texture2D" uid="uid://dglp0ngi8qah0" path="res://animations/tools/Character vj walk dry mop anim - right/F4.png" id="112_rri54"]
+[ext_resource type="Texture2D" uid="uid://cr20rrx2nto2m" path="res://animations/tools/Character vj walk dry mop anim - right/F5.png" id="113_gvdvb"]
+[ext_resource type="Texture2D" uid="uid://5l5lfo3lewtt" path="res://animations/movement/Bucket/Bucket and splash anim walk right/F3.png" id="113_leqmf"]
+[ext_resource type="Texture2D" uid="uid://cqt38cpp44pqt" path="res://animations/movement/Bucket/Bucket and splash anim walk back/F1.png" id="114_8sp3e"]
+[ext_resource type="Texture2D" uid="uid://dbqskfsoko4bj" path="res://animations/tools/Character vj walk dry mop anim - right/F6.png" id="114_wlsgo"]
+[ext_resource type="Texture2D" uid="uid://cq0ck0x7nucym" path="res://animations/tools/Character vj walk dry mop anim - right/F7.png" id="115_d7y5b"]
+[ext_resource type="Texture2D" uid="uid://j2djnwg8wcpe" path="res://animations/movement/Bucket/Bucket and splash anim walk back/F2.png" id="115_xgprw"]
+[ext_resource type="Texture2D" uid="uid://21o305oikdc7" path="res://animations/tools/Character vj walk dry mop anim - back/F1.png" id="116_r6f5o"]
+[ext_resource type="Texture2D" uid="uid://cs6vtcf6w8aa0" path="res://animations/movement/Bucket/Bucket and splash anim walk back/F3.png" id="116_stf7b"]
+[ext_resource type="Texture2D" uid="uid://bqu74ejukyi3p" path="res://animations/movement/Bucket/Bucket and splash anim walk back/F4.png" id="117_d1nlv"]
+[ext_resource type="Texture2D" uid="uid://dwpp2memgsoev" path="res://animations/tools/Character vj walk dry mop anim - back/F2.png" id="117_e8iag"]
+[ext_resource type="Texture2D" uid="uid://bvkv54ch2huyh" path="res://animations/tools/Character vj walk dry mop anim - back/F3.png" id="118_ku03h"]
+[ext_resource type="Texture2D" uid="uid://km6hswv0wdvt" path="res://animations/tools/Character vj walk dry mop anim - back/F4.png" id="119_pn2f3"]
+[ext_resource type="Texture2D" uid="uid://b5vq81djgniyb" path="res://animations/tools/Character vj walk dry mop anim - back/F5.png" id="120_uwddx"]
+[ext_resource type="Texture2D" uid="uid://d25cvkujfdjud" path="res://animations/tools/Character vj walk dry mop anim - back/F6.png" id="121_rienq"]
+[ext_resource type="Texture2D" uid="uid://bpcr46m4hvuih" path="res://animations/tools/Character vj walk dry rag anim - front/F1.png" id="132_2akqd"]
+[ext_resource type="Texture2D" uid="uid://ciehnpt8ughe3" path="res://animations/tools/Character vj walk dry rag anim - front/F2.png" id="133_ivdrq"]
+[ext_resource type="Texture2D" uid="uid://cs8s0rk2whqmx" path="res://animations/tools/Character vj walk dry rag anim - front/F3.png" id="134_l4j3c"]
+[ext_resource type="Texture2D" uid="uid://but5xlig83n3e" path="res://animations/tools/Character vj walk dry rag anim - front/F4.png" id="135_2holo"]
+[ext_resource type="Texture2D" uid="uid://cdagbjqveg8ck" path="res://animations/tools/Character vj walk dry rag anim - front/F5.png" id="136_qmje4"]
+[ext_resource type="Texture2D" uid="uid://bd1706v33ii7e" path="res://animations/tools/Character vj walk dry rag anim - front/F6.png" id="137_msepk"]
+[ext_resource type="Texture2D" uid="uid://cd4fcb16r61x6" path="res://animations/tools/Character vj walk dry rag anim - left/F1.png" id="138_md5jw"]
+[ext_resource type="Texture2D" uid="uid://ua7sbw76008j" path="res://animations/tools/Character vj walk dry rag anim - left/F2.png" id="139_po06p"]
+[ext_resource type="Texture2D" uid="uid://b1gskpfh65so5" path="res://animations/tools/Character vj walk dry rag anim - left/F3.png" id="140_os65s"]
+[ext_resource type="Texture2D" uid="uid://dosmpir52labp" path="res://animations/tools/Character vj walk dry rag anim - left/F4.png" id="141_ixrxl"]
+[ext_resource type="Texture2D" uid="uid://ba5umeegohsud" path="res://animations/tools/Character vj walk dry rag anim - left/F5.png" id="142_r4y1f"]
+[ext_resource type="Texture2D" uid="uid://b4crcspjmgdmo" path="res://animations/tools/Character vj walk dry rag anim - left/F6.png" id="143_qvu5p"]
+[ext_resource type="Texture2D" uid="uid://d4k378tb6h1ya" path="res://animations/tools/Character vj walk dry rag anim - left/F7.png" id="144_3ovwt"]
+[ext_resource type="Texture2D" uid="uid://woj7l21ly7ai" path="res://animations/tools/Character vj walk dry rag anim - right/F1.png" id="145_se0ko"]
+[ext_resource type="Texture2D" uid="uid://ddvvgqq8f3koy" path="res://animations/tools/Character vj walk dry rag anim - right/F2.png" id="146_q2dg2"]
+[ext_resource type="Texture2D" uid="uid://bwn6o8vlvfbq8" path="res://animations/tools/Character vj walk dry rag anim - right/F3.png" id="147_pwety"]
+[ext_resource type="Texture2D" uid="uid://bs0jkr7dn31mi" path="res://animations/tools/Character vj walk dry rag anim - right/F4.png" id="148_mq7t1"]
+[ext_resource type="Texture2D" uid="uid://dpb0uv7sfva38" path="res://animations/tools/Character vj walk dry rag anim - right/F5.png" id="149_rkbxt"]
+[ext_resource type="Texture2D" uid="uid://8u1o2qa5m8oh" path="res://animations/tools/Character vj walk dry rag anim - right/F6.png" id="150_1rny6"]
+[ext_resource type="Texture2D" uid="uid://xun56h4i271s" path="res://animations/tools/Character vj walk dry rag anim - right/F7.png" id="151_7w3co"]
+[ext_resource type="Texture2D" uid="uid://dx3ypjg1ni7ph" path="res://animations/tools/Character vj walk dry rag anim - back/F1.png" id="152_hg0ck"]
+[ext_resource type="Texture2D" uid="uid://fj5g5x07f2fc" path="res://animations/tools/Character vj walk dry rag anim - back/F2.png" id="153_hbxxu"]
+[ext_resource type="Texture2D" uid="uid://cxjjlgtwouykj" path="res://animations/tools/Character vj walk dry rag anim - back/F3.png" id="154_ii16d"]
+[ext_resource type="Texture2D" uid="uid://x5tqft26g1j0" path="res://animations/tools/Character vj walk dry rag anim - back/F4.png" id="155_hn1be"]
+[ext_resource type="Texture2D" uid="uid://d00sdy86mt1g8" path="res://animations/tools/Character vj walk dry rag anim - back/F5.png" id="156_52ppk"]
+[ext_resource type="Texture2D" uid="uid://bd6ds70jtob5j" path="res://animations/tools/Character vj walk dry rag anim - back/F6.png" id="157_b62yj"]
+[ext_resource type="Texture2D" uid="uid://c0dhh6g1p128l" path="res://animations/tools/Character vj walk wet mop anim - front/F1.png" id="178_a5jur"]
+[ext_resource type="Texture2D" uid="uid://bb24x5rtwaa2a" path="res://animations/tools/Character vj walk wet mop anim - front/F2.png" id="179_1mkb8"]
+[ext_resource type="Texture2D" uid="uid://b75ya8f37aw78" path="res://animations/tools/Character vj walk wet mop anim - front/F3.png" id="180_xhnrp"]
+[ext_resource type="Texture2D" uid="uid://cbal31uskmg17" path="res://animations/tools/Character vj walk wet mop anim - front/F4.png" id="181_anf0d"]
+[ext_resource type="Texture2D" uid="uid://bhfsu3qyiaqwn" path="res://animations/tools/Character vj walk wet mop anim - front/F5.png" id="182_fmly5"]
+[ext_resource type="Texture2D" uid="uid://dp6pocc60viiq" path="res://animations/tools/Character vj walk wet mop anim - front/F6.png" id="183_fxx3f"]
+[ext_resource type="Texture2D" uid="uid://dgmbylt62jeia" path="res://animations/tools/Character vj walk wet mop anim - left/F1.png" id="184_ynr8t"]
+[ext_resource type="Texture2D" uid="uid://llsaucxgnqjs" path="res://animations/tools/Character vj walk wet mop anim - left/F2.png" id="185_l4ata"]
+[ext_resource type="Texture2D" uid="uid://d0no2yx7byvyh" path="res://animations/tools/Character vj walk wet mop anim - left/F3.png" id="186_msqbc"]
+[ext_resource type="Texture2D" uid="uid://coo2dyyxcikub" path="res://animations/tools/Character vj walk wet mop anim - left/F4.png" id="187_8ovvo"]
+[ext_resource type="Texture2D" uid="uid://bhm05bxmae20a" path="res://animations/tools/Character vj walk wet mop anim - left/F5.png" id="188_8wbc7"]
+[ext_resource type="Texture2D" uid="uid://scb8d0bwc0v7" path="res://animations/tools/Character vj walk wet mop anim - left/F6.png" id="189_y6ab1"]
+[ext_resource type="Texture2D" uid="uid://dow36mwiehcl1" path="res://animations/tools/Character vj walk wet mop anim - right/F1.png" id="190_0dkp1"]
+[ext_resource type="Texture2D" uid="uid://l3l3gr64v3bb" path="res://animations/tools/Character vj walk wet mop anim - right/F2.png" id="191_on335"]
+[ext_resource type="Texture2D" uid="uid://ciihdhwj4fqab" path="res://animations/tools/Character vj walk wet mop anim - right/F3.png" id="192_35k1e"]
+[ext_resource type="Texture2D" uid="uid://b5ow0enm21k5g" path="res://animations/tools/Character vj walk wet mop anim - right/F4.png" id="193_fpw67"]
+[ext_resource type="Texture2D" uid="uid://dhiv31v0lwj2l" path="res://animations/tools/Character vj walk wet mop anim - right/F5.png" id="194_uu53y"]
+[ext_resource type="Texture2D" uid="uid://dor84lwkmb622" path="res://animations/tools/Character vj walk wet mop anim - right/F6.png" id="195_jhfmf"]
+[ext_resource type="Texture2D" uid="uid://8nlx6u6hedjb" path="res://animations/tools/Character vj walk wet mop anim - back/F1.png" id="196_b6yar"]
+[ext_resource type="Texture2D" uid="uid://ckikmjmwwmjr7" path="res://animations/tools/Character vj walk wet mop anim - back/F2.png" id="197_6stbd"]
+[ext_resource type="Texture2D" uid="uid://wn1vgv85h8s7" path="res://animations/tools/Character vj walk wet mop anim - back/F3.png" id="198_icbtk"]
+[ext_resource type="Texture2D" uid="uid://bcldbv7p238jf" path="res://animations/tools/Character vj walk wet mop anim - back/F4.png" id="199_wh3k5"]
+[ext_resource type="Texture2D" uid="uid://boraqpwr2slab" path="res://animations/tools/Character vj walk wet mop anim - back/F5.png" id="200_1k7vr"]
+[ext_resource type="Texture2D" uid="uid://chwq55go7dykt" path="res://animations/tools/Character vj walk wet mop anim - back/F6.png" id="201_67dyp"]
+[ext_resource type="Texture2D" uid="uid://b7x0fuj4ilhte" path="res://animations/tools/Character vj walk wet rag anim - front/F1.png" id="202_6avt2"]
+[ext_resource type="Texture2D" uid="uid://cen5ituyhdqp1" path="res://animations/tools/Character vj walk wet rag anim - front/F2.png" id="203_4w5ev"]
+[ext_resource type="Texture2D" uid="uid://bqj1o5rrgo5lm" path="res://animations/tools/Character vj walk wet rag anim - front/F3.png" id="204_qk2kq"]
+[ext_resource type="Texture2D" uid="uid://bokc2k5g43qrv" path="res://animations/tools/Character vj walk wet rag anim - front/F4.png" id="205_p22xc"]
+[ext_resource type="Texture2D" uid="uid://ctcihkhi6hkca" path="res://animations/tools/Character vj walk wet rag anim - front/F5.png" id="206_ayefl"]
+[ext_resource type="Texture2D" uid="uid://cnqmw02hls3ut" path="res://animations/tools/Character vj walk wet rag anim - front/F6.png" id="207_thhqn"]
+[ext_resource type="Texture2D" uid="uid://vnnfe84cfptb" path="res://animations/tools/Character vj walk wet rag anim - left/F1.png" id="208_tpgn2"]
+[ext_resource type="Texture2D" uid="uid://cbhhvg75n1f4i" path="res://animations/tools/Character vj walk wet rag anim - left/F2.png" id="209_hgow1"]
+[ext_resource type="Texture2D" uid="uid://chhaq6kqkr2xx" path="res://animations/tools/Character vj walk wet rag anim - left/F3.png" id="210_eoa1s"]
+[ext_resource type="Texture2D" uid="uid://dv07r8lh5pmx6" path="res://animations/tools/Character vj walk wet rag anim - left/F4.png" id="211_w2dhy"]
+[ext_resource type="Texture2D" uid="uid://bn6ymk4iw2u35" path="res://animations/tools/Character vj walk wet rag anim - left/F5.png" id="212_dddys"]
+[ext_resource type="Texture2D" uid="uid://bgj6k3aeqqv6m" path="res://animations/tools/Character vj walk wet rag anim - left/F6.png" id="213_vmaoy"]
+[ext_resource type="Texture2D" uid="uid://clesdlllwiaex" path="res://animations/tools/Character vj walk wet rag anim - right/F1.png" id="214_21ves"]
+[ext_resource type="Texture2D" uid="uid://dyxb0g1de05fk" path="res://animations/tools/Character vj walk wet rag anim - right/F2.png" id="215_gsh0k"]
+[ext_resource type="Texture2D" uid="uid://f260erjplhjs" path="res://animations/tools/Character vj walk wet rag anim - right/F3.png" id="216_ccjfy"]
+[ext_resource type="Texture2D" uid="uid://bbwltf3q2ukvg" path="res://animations/tools/Character vj walk wet rag anim - right/F4.png" id="217_8f5l7"]
+[ext_resource type="Texture2D" uid="uid://g701gfqx2t4c" path="res://animations/tools/Character vj walk wet rag anim - right/F5.png" id="218_dia3j"]
+[ext_resource type="Texture2D" uid="uid://bqjyn6g8di06p" path="res://animations/tools/Character vj walk wet rag anim - right/F6.png" id="219_5ba6g"]
+[ext_resource type="Texture2D" uid="uid://8u8u7uyk04la" path="res://animations/tools/Character vj walk wet rag anim - back/F1.png" id="220_vxdpm"]
+[ext_resource type="Texture2D" uid="uid://uex1syo05ubm" path="res://animations/tools/Character vj walk wet rag anim - back/F2.png" id="221_s2mx0"]
+[ext_resource type="Texture2D" uid="uid://c6ojss01x1oog" path="res://animations/tools/Character vj walk wet rag anim - back/F3.png" id="222_lbukf"]
+[ext_resource type="Texture2D" uid="uid://b6jfrsmpnfwuw" path="res://animations/tools/Character vj walk wet rag anim - back/F4.png" id="223_kqd5u"]
+[ext_resource type="Texture2D" uid="uid://b23w1dnq656p5" path="res://animations/tools/Character vj walk wet rag anim - back/F5.png" id="224_xpvjo"]
+[ext_resource type="Texture2D" uid="uid://ds2p1vlm6t53p" path="res://animations/tools/Character vj walk wet rag anim - back/F6.png" id="225_i72wr"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wprgw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("57_urqdh")
+}],
+"loop": true,
+"name": &"idle_broom_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("65_qfulw")
+}],
+"loop": true,
+"name": &"idle_broom_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("73_0li3u")
+}],
+"loop": true,
+"name": &"idle_broom_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("81_mb213")
+}],
+"loop": true,
+"name": &"idle_broom_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_6h3ue")
+}],
+"loop": true,
+"name": &"idle_bucket_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_evi2b")
+}],
+"loop": true,
+"name": &"idle_bucket_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_rvjdv")
+}],
+"loop": true,
+"name": &"idle_bucket_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_7wr6f")
+}],
+"loop": true,
+"name": &"idle_bucket_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_xp3xk")
+}],
+"loop": true,
+"name": &"idle_empty_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_hqqyu")
+}],
+"loop": true,
+"name": &"idle_empty_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_wq7bh")
+}],
+"loop": true,
+"name": &"idle_empty_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_p4bcn")
+}],
+"loop": true,
+"name": &"idle_empty_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_eu4o1")
+}],
+"loop": true,
+"name": &"idle_mop_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_yc6k0")
+}],
+"loop": true,
+"name": &"idle_mop_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_v334d")
+}],
+"loop": true,
+"name": &"idle_mop_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_i1pdu")
+}],
+"loop": true,
+"name": &"idle_mop_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_a0kle")
+}],
+"loop": true,
+"name": &"idle_rag_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_20ouh")
+}],
+"loop": true,
+"name": &"idle_rag_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_brpj2")
+}],
+"loop": true,
+"name": &"idle_rag_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_hvdq0")
+}],
+"loop": true,
+"name": &"idle_rag_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_eg8sp")
+}],
+"loop": true,
+"name": &"idle_tool",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_ymplc")
+}],
+"loop": true,
+"name": &"idle_wet_mop_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_pb3y6")
+}],
+"loop": true,
+"name": &"idle_wet_mop_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_c5k3y")
+}],
+"loop": true,
+"name": &"idle_wet_mop_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_ot17s")
+}],
+"loop": true,
+"name": &"idle_wet_mop_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_goai5")
+}],
+"loop": true,
+"name": &"idle_wet_rag_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_s5do5")
+}],
+"loop": true,
+"name": &"idle_wet_rag_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_sbmyq")
+}],
+"loop": true,
+"name": &"idle_wet_rag_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_0ai5a")
+}],
+"loop": true,
+"name": &"idle_wet_rag_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_s7ccs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_d4cda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_2r7cu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_lcwc1")
+}],
+"loop": true,
+"name": &"mopping_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_t2o3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_2736u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_tttcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_0eyr8")
+}],
+"loop": true,
+"name": &"mopping_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_5no4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_408gw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_g154b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_r8lhl")
+}],
+"loop": true,
+"name": &"mopping_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_1mxy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_0b50h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ci2hj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_3emtv")
+}],
+"loop": true,
+"name": &"mopping_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_rnrrk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_nry47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_pqfnf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_lejro")
+}],
+"loop": true,
+"name": &"rag_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_3hlfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_a8064")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ss6bw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_lxpu8")
+}],
+"loop": true,
+"name": &"rag_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_xsemw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ealco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_j30gq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_gwbm0")
+}],
+"loop": true,
+"name": &"rag_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_q5l0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_h8554")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_o6tuf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_bjok4")
+}],
+"loop": true,
+"name": &"rag_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_eg8sp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_46kj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jrkck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_2efpt")
+}],
+"loop": true,
+"name": &"sweeping_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_cdib0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_1i6u6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_eiosm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_q6c63")
+}],
+"loop": true,
+"name": &"sweeping_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_tn344")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_hdogx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_3i0wf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ulexb")
+}],
+"loop": true,
+"name": &"sweeping_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_coxlo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_p1x26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_e4164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_apwhr")
+}],
+"loop": true,
+"name": &"sweeping_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("58_t3pkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_jikka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_ndmat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_e55ha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_4vtjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_imbsy")
+}],
+"loop": true,
+"name": &"walk_broom_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("66_cq6sb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_h3div")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_v87mf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_fiq7k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_ltbcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_rm8i2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_00sqa")
+}],
+"loop": true,
+"name": &"walk_broom_left",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("74_bqrn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_wjyj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_tx0rg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_awpuk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_61gyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_xwlnd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_d2t68")
+}],
+"loop": true,
+"name": &"walk_broom_right",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("82_t3eex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_obpfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_oeqtv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_ai652")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_rfr4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_ttb5l")
+}],
+"loop": true,
+"name": &"walk_broom_up",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("104_fk2gg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_5l0um")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_yqcas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_ap8o3")
+}],
+"loop": true,
+"name": &"walk_bucket_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_evi2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_hkpvn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_yj8y3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_yqkb1")
+}],
+"loop": true,
+"name": &"walk_bucket_left",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_rvjdv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_ld7xv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_f3hx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_leqmf")
+}],
+"loop": true,
+"name": &"walk_bucket_right",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("114_8sp3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_xgprw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_stf7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_d1nlv")
+}],
+"loop": true,
+"name": &"walk_bucket_up",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_vbh3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_vm657")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_3hbv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_yy5td")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_crip0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_fxt5a")
+}],
+"loop": true,
+"name": &"walk_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_pxskk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_tgtfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_j2s5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_jg2ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_qrjgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_wf7ge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_giqwu")
+}],
+"loop": true,
+"name": &"walk_left",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("96_1cafx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_t2ktr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_tr77p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_ypvsi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_8lgw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_a3ps0")
+}],
+"loop": true,
+"name": &"walk_mop_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("102_se27g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_6ftqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_5rmxd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_o6b8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_kyacn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_hl17t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_8pumi")
+}],
+"loop": true,
+"name": &"walk_mop_left",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("109_t8426")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_s2p10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_ocwl6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_rri54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_gvdvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_wlsgo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_d7y5b")
+}],
+"loop": true,
+"name": &"walk_mop_right",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("116_r6f5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_e8iag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_ku03h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_pn2f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_uwddx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_rienq")
+}],
+"loop": true,
+"name": &"walk_mop_up",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("132_2akqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_ivdrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_l4j3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_2holo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_qmje4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_msepk")
+}],
+"loop": true,
+"name": &"walk_rag_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("138_md5jw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_po06p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_os65s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_ixrxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_r4y1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_qvu5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_3ovwt")
+}],
+"loop": true,
+"name": &"walk_rag_left",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("145_se0ko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_q2dg2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_pwety")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_mq7t1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_rkbxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_1rny6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_7w3co")
+}],
+"loop": true,
+"name": &"walk_rag_right",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("152_hg0ck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_hbxxu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_ii16d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_hn1be")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_52ppk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_b62yj")
+}],
+"loop": true,
+"name": &"walk_rag_up",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30_g31r6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_2maa1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ivwhc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_w568n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ghkop")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_74g1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_iw6iy")
+}],
+"loop": true,
+"name": &"walk_right",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_eg8sp")
+}],
+"loop": true,
+"name": &"walk_tool",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_s58un")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_4r00g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_qll82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_1elr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_50c0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_qu3g7")
+}],
+"loop": true,
+"name": &"walk_up",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("178_a5jur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_1mkb8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_xhnrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_anf0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_fmly5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_fxx3f")
+}],
+"loop": true,
+"name": &"walk_wet_mop_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("184_ynr8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_l4ata")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_msqbc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_8ovvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_8wbc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_y6ab1")
+}],
+"loop": true,
+"name": &"walk_wet_mop_left",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("190_0dkp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_on335")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_35k1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_fpw67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_uu53y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_jhfmf")
+}],
+"loop": true,
+"name": &"walk_wet_mop_right",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("196_b6yar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_6stbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_icbtk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_wh3k5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_1k7vr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_67dyp")
+}],
+"loop": true,
+"name": &"walk_wet_mop_up",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("202_6avt2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_4w5ev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_qk2kq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_p22xc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_ayefl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_thhqn")
+}],
+"loop": true,
+"name": &"walk_wet_rag_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("208_tpgn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_hgow1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_eoa1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_w2dhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_dddys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_vmaoy")
+}],
+"loop": true,
+"name": &"walk_wet_rag_left",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("214_21ves")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_gsh0k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_ccjfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_8f5l7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_dia3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_5ba6g")
+}],
+"loop": true,
+"name": &"walk_wet_rag_right",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("220_vxdpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_s2mx0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_lbukf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_kqd5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_xpvjo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_i72wr")
+}],
+"loop": true,
+"name": &"walk_wet_rag_up",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6al0y"]
+radius = 23.3187
+height = 55.9984
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_axe18"]
+radius = 34.8999
+height = 124.112
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dwtlq"]
+bg_color = Color(0.205984, 0.225426, 0.24973, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b3scg"]
+bg_color = Color(8.66354e-07, 0.722658, 0.278397, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_w4msa")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(5, 5)
+sprite_frames = SubResource("SpriteFrames_wprgw")
+animation = &"idle_empty_right"
+
+[node name="HandPosition" type="Marker2D" parent="AnimatedSprite2D"]
+position = Vector2(7, 4)
+
+[node name="CharModel" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-1, 1)
+scale = Vector2(5, 5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4, 0)
+scale = Vector2(1.41517, -1.46433)
+shape = SubResource("CapsuleShape2D_6al0y")
+
+[node name="HurtBox" type="Area2D" parent="."]
+unique_name_in_owner = true
+visible = false
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox"]
+position = Vector2(-1, 7)
+rotation = -0.0159301
+shape = SubResource("CapsuleShape2D_axe18")
+debug_color = Color(0.985344, 0, 0.334702, 0.42)
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+unique_name_in_owner = true
+visible = false
+offset_left = -32.0
+offset_top = -87.0
+offset_right = 31.0
+offset_bottom = -79.0
+theme_override_styles/background = SubResource("StyleBoxFlat_dwtlq")
+theme_override_styles/fill = SubResource("StyleBoxFlat_b3scg")
+value = 100.0
+show_percentage = false
+
+[node name="CleaningTimer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[node name="Camera2D" type="Camera2D" parent="."]

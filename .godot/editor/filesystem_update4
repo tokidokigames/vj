@@ -1,0 +1,13 @@
+res://Scenes/Game/game.tscn
+res://Scenes/UI/score_popup.gd
+res://Scenes/Stuff/water_spill.gd
+res://Scenes/Levels/level_0.tscn
+res://Scenes/Characters/player.tscn
+res://Scenes/UI/welcome_popup.tscn
+res://Scenes/UI/dialogue_box.tscn
+res://Scenes/Characters/vampire_1.tscn
+res://Scenes/Stuff/mop.tscn
+res://Scenes/Stuff/torch_light.tscn
+res://Scenes/Stuff/rag.tscn
+res://Scenes/Stuff/water_spill.tscn
+res://Scenes/Levels/level_0.gd

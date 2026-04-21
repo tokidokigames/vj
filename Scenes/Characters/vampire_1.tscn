@@ -1,0 +1,280 @@
+[gd_scene load_steps=37 format=3 uid="uid://c32f1xa18c5kx"]
+
+[ext_resource type="Texture2D" uid="uid://bfb0yq2e34jtp" path="res://characters/Vampire1/F1.png" id="1_gga5a"]
+[ext_resource type="Script" path="res://Scenes/Characters/vampire_1.gd" id="1_ya1y8"]
+[ext_resource type="Texture2D" uid="uid://ckxsofi8markg" path="res://characters/Vampire1/F2.png" id="2_lc3yg"]
+[ext_resource type="Texture2D" uid="uid://cjv8x4f2yuqnu" path="res://characters/Vampire1/F3.png" id="3_cafqc"]
+[ext_resource type="Texture2D" uid="uid://co746qcj0lxvg" path="res://characters/Vampire1/F0.png" id="4_eknsk"]
+[ext_resource type="Texture2D" uid="uid://b81t0hcha67xr" path="res://animations/movement/Vampire vj sprite walk anim front/F0.png" id="5_bws5b"]
+[ext_resource type="Texture2D" uid="uid://cx3cldvgm8akk" path="res://animations/movement/Vampire vj sprite walk anim front/F1.png" id="6_x4fq3"]
+[ext_resource type="Texture2D" uid="uid://dlnvk7vdv1sn5" path="res://animations/movement/Vampire vj sprite walk anim front/F2.png" id="7_bns8x"]
+[ext_resource type="Texture2D" uid="uid://2yb4agnic5fb" path="res://animations/movement/Vampire vj sprite walk anim front/F3.png" id="8_ldypp"]
+[ext_resource type="Texture2D" uid="uid://4vmdskvu57wb" path="res://animations/movement/Vampire vj sprite walk anim front/F4.png" id="9_1v14g"]
+[ext_resource type="Texture2D" uid="uid://dil816weitt8e" path="res://animations/movement/Vampire vj sprite walk anim front/F5.png" id="10_wbao8"]
+[ext_resource type="Texture2D" uid="uid://clediwhgl1u4o" path="res://animations/movement/Vampire vj sprite walk anim left/F0.png" id="11_jmf6w"]
+[ext_resource type="Texture2D" uid="uid://ct8dj6lmy6fb8" path="res://animations/movement/Vampire vj sprite walk anim left/F1.png" id="12_ysu6t"]
+[ext_resource type="Texture2D" uid="uid://gl8uwnvqrvl6" path="res://animations/movement/Vampire vj sprite walk anim left/F2.png" id="13_bs1lj"]
+[ext_resource type="Texture2D" uid="uid://ctv6h50kkhwvo" path="res://animations/movement/Vampire vj sprite walk anim left/F3.png" id="14_h1ibf"]
+[ext_resource type="Texture2D" uid="uid://7p2y3l4ql8xg" path="res://animations/movement/Vampire vj sprite walk anim left/F4.png" id="15_a8rgd"]
+[ext_resource type="Texture2D" uid="uid://cyeckjdfdy3kn" path="res://animations/movement/Vampire vj sprite walk anim left/F5.png" id="16_lmnhg"]
+[ext_resource type="Texture2D" uid="uid://d2iiwpdac2b63" path="res://animations/movement/Vampire vj sprite walk anim right/F0.png" id="17_oo3l2"]
+[ext_resource type="Texture2D" uid="uid://dr8ghpme2ytqy" path="res://animations/movement/Vampire vj sprite walk anim right/F1.png" id="18_x2d5y"]
+[ext_resource type="Texture2D" uid="uid://tr2ti6imon6l" path="res://animations/movement/Vampire vj sprite walk anim right/F2.png" id="19_gekw5"]
+[ext_resource type="Texture2D" uid="uid://8qyvt285goxl" path="res://animations/movement/Vampire vj sprite walk anim right/F3.png" id="20_54ain"]
+[ext_resource type="Texture2D" uid="uid://dxp37wkrhi6t7" path="res://animations/movement/Vampire vj sprite walk anim right/F4.png" id="21_ijl5n"]
+[ext_resource type="Texture2D" uid="uid://c5wljw317jiu3" path="res://animations/movement/Vampire vj sprite walk anim right/F5.png" id="22_jqxmp"]
+[ext_resource type="Texture2D" uid="uid://cksp2qp8n43a8" path="res://animations/movement/Vampire vj sprite walk anim back/F0.png" id="23_71n1k"]
+[ext_resource type="Texture2D" uid="uid://dt15os3ogr2km" path="res://animations/movement/Vampire vj sprite walk anim back/F1.png" id="24_3kkn1"]
+[ext_resource type="Texture2D" uid="uid://doiain0xyxaaj" path="res://animations/movement/Vampire vj sprite walk anim back/F2.png" id="25_wgdnx"]
+[ext_resource type="Texture2D" uid="uid://baufkynyue8ee" path="res://animations/movement/Vampire vj sprite walk anim back/F3.png" id="26_g0yr7"]
+[ext_resource type="Texture2D" uid="uid://dyk0r6n1lxuqr" path="res://animations/movement/Vampire vj sprite walk anim back/F4.png" id="27_1xjij"]
+[ext_resource type="Texture2D" uid="uid://cshgs8e1jjhm3" path="res://animations/movement/Vampire vj sprite walk anim back/F5.png" id="28_0a7is"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wfsdk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_gga5a")
+}],
+"loop": true,
+"name": &"vampire_idle_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_lc3yg")
+}],
+"loop": true,
+"name": &"vampire_idle_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_cafqc")
+}],
+"loop": true,
+"name": &"vampire_idle_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_eknsk")
+}],
+"loop": true,
+"name": &"vampire_idle_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_bws5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_x4fq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_bns8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ldypp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1v14g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_wbao8")
+}],
+"loop": true,
+"name": &"vampire_walk_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_jmf6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ysu6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_bs1lj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_h1ibf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_a8rgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_lmnhg")
+}],
+"loop": true,
+"name": &"vampire_walk_left",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_oo3l2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_x2d5y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_gekw5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_54ain")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ijl5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_jqxmp")
+}],
+"loop": true,
+"name": &"vampire_walk_right",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_71n1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_3kkn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_wgdnx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_g0yr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_1xjij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_0a7is")
+}],
+"loop": true,
+"name": &"vampire_walk_up",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_srcfc"]
+radius = 7.6
+height = 16.8
+
+[sub_resource type="Animation" id="Animation_t5b50"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_5dao4"]
+resource_name = "fade_in"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.96667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 10)]
+}
+
+[sub_resource type="Animation" id="Animation_ex6rp"]
+resource_name = "fade_out"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 10), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_o1nru"]
+resource_name = "move_down"
+length = 3.0
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_uk5gj"]
+_data = {
+"RESET": SubResource("Animation_t5b50"),
+"fade_in": SubResource("Animation_5dao4"),
+"fade_out": SubResource("Animation_ex6rp"),
+"move_down": SubResource("Animation_o1nru")
+}
+
+[node name="Vampire1" type="CharacterBody2D"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(0, 2.17391)
+scale = Vector2(5, 5)
+script = ExtResource("1_ya1y8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_wfsdk")
+animation = &"vampire_idle_down"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1.2, -1.19209e-07)
+shape = SubResource("CapsuleShape2D_srcfc")
+disabled = true
+
+[node name="FadeLayer" type="CanvasModulate" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="FadeLayer"]
+root_node = NodePath("../..")
+libraries = {
+"": SubResource("AnimationLibrary_uk5gj")
+}
